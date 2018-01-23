@@ -1,0 +1,76 @@
+
+/* ----- GENERAL ----- */
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgba(136, 152, 170, 0.10);
+    text-rendering: optimizeLegibility;
+    padding: 48px 10%;     
+}
+
+.starters-step-1-dashboard-hero-container {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.15);
+    font-family: 'Camphor', 'Arial', sans-serif;
+
+}
+
+
+/* ----- DASHBOARDHERO COMPOPNENT ----- */
+
+/* - BACKGROUND IMAGE - */
+.starters-step-1-dashboard-hero-background-image-hero {
+    background-image: url(img/graphic.svg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 4px 4px 0 0;
+}
+
+/* - FOOTER - */
+.starters-step-1-dashboard-hero-footer-container {
+    padding: 0 24px 24px 24px;
+    position: relative;
+}
+
+.starters-step-1-dashboard-hero-user-photo {
+    height: 96px;
+    width: 96px;
+    border-radius: 50%;
+    position: absolute;
+    top: -48px;
+    box-shadow: 0 2px 4px  rgba(0, 0, 0, 0.38);
+}
+
+.starters-step-1-dashboard-hero-info-user{
+    padding-left: 120px;
+    padding-top: 16px;
+
+}
+
+h1.starters-step-1-dashboard-hero-title {
+    margin: 0;
+    padding: 0;
+    color: #2196F3;
+    font-size: 20px;
+}
+
+p.starters-step-1-dashboard-hero-subtitle {
+    margin: 0;
+    margin-top: 4px;
+    color: rgba(0, 0, 0, 0.38);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+
+
+ 
+  
