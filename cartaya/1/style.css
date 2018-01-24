@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+section {
+	height: 75vh;
+	background-color: #FFA600;
+}
+a {
+    font-size: 48px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.692); 
+    color: rgba(255, 255, 255, 0.877);
+    
+}
+img {
+	margin: 8% 0 0 8%;
+	width: 310px;
+	position: absolute;
+}
+div.txt {
+	margin: 16% 0 0 38%;
+	position: absolute;
+	display: inline-block;
+	color: rgba(255, 255, 255, 0.877);
+    font-size: 25px;
+    line-height: 1.5;
+}
+a {
+    line-height: 1;
+}
