@@ -1,0 +1,247 @@
+body {
+    margin: 0px;
+    color: white;
+    font-family: sans-serif;
+}
+
+header {
+    position: relative;
+    font-size: smaller;
+    height: 38px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 180px;
+}
+
+.paragraph-header, header div {
+    margin: 0px;
+    display: inline-block;
+}
+
+.button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline;
+    border: 0px;
+    background: transparent;
+    cursor: pointer;     
+    color: white;
+}
+
+.register {
+    border-left: 1px solid white;
+}
+
+.fa-user::before {
+    content: "\f007";
+    margin-right: 7px;
+}
+
+.fa-angle-down::after {
+    content: "\f107";
+    margin-left: 7px;
+}
+
+.fa-angle-down::before {
+    display: none;
+    content: "\f107";
+}
+
+.location,.date,.fa.fa-user.button {
+    margin-left: 30px;
+}
+
+.button.register {
+    font-family: ar;
+    display: inline;
+}
+
+main {
+    height: 80vh;
+    background-image: url('img.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main > nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 180px;
+    padding-top: 20px;
+}
+
+.cachet {
+    display: flex;
+    align-items: center;
+}
+
+.fa.fa-trophy {
+    font-size: 60px;
+}
+
+main nav div p {
+    font-size: 30px;
+    margin: 0px 0px 0px 5px;
+}
+
+.strong {
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.button-nav {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 100%;
+    border: 0px;
+    background: transparent;
+    cursor: pointer;     
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 17px;
+    padding: 0px;
+}
+
+.button-nav:hover {
+    border-bottom: 3px;
+    border-bottom-color: rgb(254, 221, 48);
+    border-bottom-style: solid;
+}
+
+.fa.fa-search {
+    height: 40px;
+    width: 40px;
+    border: 3px solid rgb(254, 221, 48);
+    color: rgb(254, 221, 48);
+    margin-left: 20px;
+}
+
+.fa.fa-cog {
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: rgb(254, 221, 48);
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#section-tittle {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20vh;
+}
+
+.button-arrow, .fa.fa-angle-right, .fa.fa-angle-left{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 100px;
+    width: 100px;
+    border: 0px;
+    background: transparent;
+    cursor: pointer;     
+    color: white;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+main h1, main p {
+    margin: 0px;
+}
+
+.mess {
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.yellow {
+    color: rgb(254, 221, 48);
+}
+
+.fa.fa-thumbs-up {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-right: 0px;
+    font-size: 20px;
+    padding: 5px 12px 5px 12px;
+}
+
+.button.courses-button p {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-size: smaller;
+    font-weight: bold;
+    background-color: white;
+    padding: 11px 25px 11px 25px;
+    margin: 0px; 
+}
+
+.button.courses-button {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.palet {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.green-card {
+    width: 200px;
+    height: 230px;
+    padding: 30px 20px 0px 20px;
+    background-color: rgb(16, 195, 93);
+}
+
+.yellow-card {
+    width: 200px;
+    height: 230px;
+    padding: 30px 20px 0px 20px;
+    background-color: rgb(254, 199, 54);
+}
+
+.blue-card {
+    width: 200px;
+    height: 230px;
+    padding: 30px 20px 0px 20px;
+    background-color: rgb(49, 122, 214);
+}
+
+.fucsia-card {
+    width: 200px;
+    height: 230px;
+    padding: 30px 20px 0px 20px;
+    background-color: rgb(234, 72, 175);
+}
+
+i.fa-colors-card {
+    font-size: 40px;
+}
+
+p.p-card {
+    margin: 0px;
+    font-size: 12px;
+    margin-top: 15px;
+    line-height: 20px;
+}
+
+h2.h2-card {
+    margin: 0px;
+    font-size: 15px;
+    margin-top: 15px;
+}
