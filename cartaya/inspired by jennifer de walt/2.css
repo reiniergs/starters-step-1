@@ -1,0 +1,22 @@
+body {
+    background-color: #9c27B0;
+}
+
+form {
+    display: flex;
+}
+
+.button {
+    border: 3px;
+    border-style: solid;
+    border-color: #941717;
+    background-color: #B71C1C;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #FDF3E1;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20vh auto;
+}
