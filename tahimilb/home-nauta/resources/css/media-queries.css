@@ -1,0 +1,64 @@
+@media (max-width: 1024px) {
+    
+    /* ----- HOME NAUTA ----- */
+    .starters-step-1-home-nauta-background-image {
+        background-size: cover;
+        background-position: center;
+        background-position: 80% 20%;
+    }
+
+    .starters-step-1-home-nauta-main-content-container {
+        height: 80vh;
+    }
+
+    /* - TEXTS - */
+    h1.starters-step-1-home-nauta-text-title {
+        width: 100%;
+    }
+    
+    h2.starters-step-1-home-nauta-text-slogan {
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .starters-step-1-home-nauta-background-image {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .starters-step-1-home-nauta-main-content-container {
+        position: relative;
+    }
+
+    .starters-step-1-home-nauta-footer-container {
+        padding-bottom: 40px;
+    }
+
+    /* - TEXTS - */
+    h1.starters-step-1-home-nauta-text-title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    h2.starters-step-1-home-nauta-text-slogan {
+        text-align: center;
+        font-size: 16px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    p.starters-step-1-home-nauta-footer-question {
+        font-size: 16px;
+    }
+
+    /* - BUTTON - */
+    button.starters-step-1-home-nauta-footer-button {
+        width: 100%;
+    }
+
+    .starters-step-1-home-nauta-footer-button:last-child {
+        margin: 16px 0 24px 0;
+    }
+}

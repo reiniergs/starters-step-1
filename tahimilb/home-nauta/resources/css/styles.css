@@ -1,0 +1,156 @@
+/* ----- GENERAL ----- */
+
+body {
+    font-family: 'Camphor', 'Arial', sans-serif;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    padding: 0;    
+}
+
+
+/* ----- HOME NAUTA ----- */
+
+.starters-step-1-home-nauta-background-image {
+    background-image: url(img/nauta_home.svg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.starters-step-1-home-nauta-header {
+    height: 64px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.starters-step-1-home-nauta-main-content-container {
+    height: 70vh;
+    width: 100%;
+    color: #fff;
+    letter-spacing: 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.starters-step-1-home-nauta-text-container {
+    width: 100%;
+   
+}
+
+.starters-step-1-home-nauta-footer-container {
+    align-self: flex-end;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+/* - TEXTS - */
+
+h1.starters-step-1-home-nauta-text-title {
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 100;
+}
+
+h2.starters-step-1-home-nauta-text-slogan {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+	font-weight: 200;
+	line-height: 1.5;
+	text-align: left;
+}
+
+p.starters-step-1-home-nauta-footer-question {
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 16px;
+    padding: 0;
+}
+
+
+/* - BUTTONS - */
+
+button.starters-step-1-home-nauta-footer-button {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #2196f3;
+    min-width: 110px;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 6px, rgba(0, 0, 0, 0.15) 0px 1px 4px;
+    position: relative;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+.starters-step-1-home-nauta-footer-button :hover {
+    background-color:  rgba(33, 150, 243, 0.20);
+}
+
+.starters-step-1-home-nauta-footer-button:last-child {
+    background-color: #2196f3;
+    color: #fff;
+    margin-left: 16px;
+}
+
+.starters-step-1-home-nauta-footer-button:last-child :hover {
+    background-color: rgba(255, 255, 255, 0.20);
+}
+
+.starters-step-1-home-nauta-footer-button:active {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+}
+
+.starters-step-1-home-nauta-footer-button-hover {
+    box-sizing: border-box;
+    border-radius: 4px; 
+    background-color: transparent;
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+    padding: 0 16px;    
+}
+
+
+/*BUTTON TRANSITION*/
+.starters-step-1-home-nauta-footer-button-hover:after {
+    content: "";
+    background-color: rgba(33, 150, 243, 0.25);
+    opacity: 0;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 40px;
+    padding-left: 100%;
+    border-radius: 0 0 0 0;
+    transition: all 0.6s;
+}
+
+.starters-step-1-home-nauta-footer-button:last-child :after {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.starters-step-1-home-nauta-footer-button-hover:active:after {
+    padding: 0;
+    padding-left: 100%;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+}
+ 
