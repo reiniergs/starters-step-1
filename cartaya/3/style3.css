@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #3b6290;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 16px;
+}
+
+main {
+    background-color: white;
+    border: 8px solid #2b517e;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+header {
+    border-bottom: 1px;
+    border-bottom-color: #dcdddf;
+    border-bottom-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #3b6290;
+    color: whitesmoke;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center
+}
+
+header span {
+    color: #3b6290;
+    margin-left: 10px;
+}
+
+header > div {
+    display: inline;
+}
+
+.details-circle {
+    margin-left: 35px;
+    padding: 35px 0;
+}
+
+div.details-circle > div {
+    background-color: #B6B6B6;
+}
+
+.circle-account-details-color-text {
+    color: #B6B6B6;
+}
+
+/*Form form here*/
+
+form {
+    padding: 35px 35px 35px 35px;
+    color: #818181;
+}
+
+input {
+    margin-top: 10px;
+    border: 3px;
+    border-color: #dddddd;
+    border-style: solid;
+    border-radius: 3px;
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.last-name, .password-confirm, .password, .first-name {
+    display: inline-block;
+    margin-top: 35px;
+    width: 47%;    
+}
+
+#last-name, #password, #password-confirm, #first-name, label {
+    width: 100%;
+}
+
+.last-name, .password-confirm, {
+    float: left;
+    
+}
+
+.password, .first-name {
+    float: right;
+    
+}
+
+.button {
+    text-rendering: auto;
+    color: #877634;;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 600 16px Verdana;
+    background-color: #f5cb2d;
+    border: 2px solid #DBB733;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 35px;
+}
