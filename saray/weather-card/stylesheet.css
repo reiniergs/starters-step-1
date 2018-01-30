@@ -4,16 +4,12 @@
     width: 300px;
     padding: 15px 20px;
     font-family: 'Montserrat', sans-serif;
-    line-height: 1.1em;
-}
-
-.weather-card--city {
     color: #424242;
+    line-height: 1.1em;
 }
 
 .weather-card--city-name {
     font-size: 25px;
-    color: #424242;
     font-weight: 300;    
 }
 
@@ -22,11 +18,9 @@
     font-size: 15px;
 }
 
-.weather-card--temperature {
+.weather-card--temp {
     font-size: 73px;  
-    position: relative;
     font-weight: 700;
-    color: #424242;
     margin: 0;
     padding: 0;
 }    
@@ -38,7 +32,7 @@
     margin-bottom: 10px;   
 }
 
-.test {
+.weather-card--sunsvg-and-temp {
     display: flex;
     justify-content: space-between;
     align-items: center;   
