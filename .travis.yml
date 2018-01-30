@@ -1,7 +1,15 @@
+os: osx
+language: node_js
+node_js:
+- '7'
+branches:
+  only:
+    - master
 deploy:
   provider: pages
-  skip-cleanup: true
+  local_dir: ${TRAVIS_BUILD_DIR}
   github-token: $GITHUB_TOKEN
+  skip-cleanup: true
   keep-history: true
   on:
     branch: master
