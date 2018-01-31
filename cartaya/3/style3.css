@@ -1,7 +1,3 @@
-* {
-    margin: 0px;
-}
-
 body {
     background-color: #3b6290;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -24,15 +20,15 @@ header {
 }
 
 .circle {
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    background-color: #3b6290;
-    color: whitesmoke;
-    font-size: 15px;
-    display: inline-flex;
     align-items: center;
-    justify-content: center
+    background-color: #3b6290;
+    border-radius: 30px;
+    color: whitesmoke;
+    display: inline-flex;
+    font-size: 15px;
+    height: 30px;
+    justify-content: center;
+    width: 30px;  
 }
 
 header span {
@@ -60,20 +56,21 @@ div.details-circle > div {
 /*Form form here*/
 
 form {
-    padding: 35px 35px 35px 35px;
     color: #818181;
+    padding: 35px 35px 35px 35px;
+    
 }
 
 input {
-    margin-top: 10px;
     border: 3px;
     border-color: #dddddd;
-    border-style: solid;
     border-radius: 3px;
-    padding: 12px;
+    border-style: solid;
+    box-sizing: border-box; /* csslint allow: box-sizing */
     font-size: 16px;
+    margin-top: 10px;
+    padding: 12px;
     width: 100%;
-    box-sizing: border-box;
 }
 
 .last-name, .password-confirm, .password, .first-name {
@@ -82,35 +79,32 @@ input {
     width: 47%;    
 }
 
-#last-name, #password, #password-confirm, #first-name, label {
+.task3-input-first-name, .task3-input-password, .task3-input-password-confirm, .task3-input-last-name, label {
     width: 100%;
 }
 
-.last-name, .password-confirm, {
-    float: left;
-    
+.last-name, .password-confirm {
+    float: left; 
 }
 
 .password, .first-name {
-    float: right;
-    
+    float: right; 
 }
 
 .button {
-    text-rendering: auto;
-    color: #877634;;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    margin: 0em;
-    font: 600 16px Verdana;
     background-color: #f5cb2d;
     border: 2px solid #DBB733;
     border-radius: 3px;
-    text-align: center;
+    color: #877634;
+    display: inline-block;
+    font: 600 16px Verdana;
+    letter-spacing: normal;
+    margin: 0;
     margin-top: 35px;
+    text-align: center;
+    text-indent: 0;
+    text-rendering: auto;
+    text-shadow: none;
+    text-transform: none;
+    word-spacing: normal; 
 }

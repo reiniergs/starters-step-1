@@ -5,6 +5,8 @@ node_js:
 branches:
   only:
     - master
+script:
+- npm run lint
 deploy:
   provider: pages
   github-token: $GITHUB_TOKEN

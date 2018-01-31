@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "lint": "csslint ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/reiniergs/starters-step-1/issues"
   },
-  "homepage": "https://github.com/reiniergs/starters-step-1#readme"
+  "homepage": "https://github.com/reiniergs/starters-step-1#readme",
+  "devDependencies": {
+    "csslint": "^1.0.5"
+  }
 }

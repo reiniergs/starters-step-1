@@ -6,10 +6,10 @@
 
     .starters-step-1-dashboard-hero-background-image-hero{
         background-image: url(img/graphic.svg);
-        background-size: cover;
         background-position: center;
-        height: 172px;
+        background-size: cover;
         border-radius: 4px 4px 0 0;
+        height: 172px;
     }
 
     .starters-step-1-dashboard-hero-footer-container{
@@ -18,23 +18,21 @@
 
     .starters-step-1-dashboard-hero-user-photo {
         height: 56px;
-        width: 56px;
         top: -28px;
+        width: 56px;
     }
 
     .starters-step-1-dashboard-hero-info-user {
         padding-left: 72px;
         padding-top: 8px;
-    
     }
     
-    h1.starters-step-1-dashboard-hero-title {
+    .starters-step-1-dashboard-hero-title {
         font-size: 16px;
     }
     
-    p.starters-step-1-dashboard-hero-subtitle {
+    .starters-step-1-dashboard-hero-subtitle {
         font-size: 12px;
         margin-top: 0;
     }
-
 }
