@@ -1,0 +1,42 @@
+.container {
+    width: 300px;
+}
+
+.weather-card--container {
+    background-color: #FBED78;
+    border-radius: 4px;
+    color: #424242;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.1em;
+    padding: 15px 20px;
+}
+
+.weather-card--city-name {
+    font-size: 25px;
+    font-weight: 300;    
+}
+
+.weather-card--day-night {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.weather-card--temp {
+    font-size: 73px;  
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}    
+
+.sun-moon {
+    margin-bottom: 10px; 
+    margin-right: 50px;
+    padding: 0;
+    width: 70px;      
+}
+
+.weather-card--sunsvg-and-temp {
+    align-items: center;   
+    display: flex;
+    justify-content: space-between;
+}
