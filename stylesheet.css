@@ -18,6 +18,12 @@
     width: 260px;
 }
 
+.home-page--profile-info-container:hover {
+    background-color: #181818;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.25);
+    margin-top: 2.8px;
+}
+
 .home-page--profile-info-container:not(:last-child) {
     margin-right: 24px;
 }
@@ -55,4 +61,8 @@
     font-weight: 300;
     margin-bottom: 51px;
     text-align: center;
+}
+
+.home-page--profile-link-to-projects:hover {
+    color: #ffffff;
 }
