@@ -3,21 +3,24 @@
     src: url('Helvetica Neue CE 35 Thin.ttf');
 }
 
-* { margin: 0px;}
+* {margin: 0px;}
 
-header {
+body {
+    font-family: HelveticaNeueCE35Thin;
+}
+
+.headweb {
     background-color: #447CA2;
     height: 102px;
     margin-top: 57px;    
 }
 
-main {
+.main-area {
     overflow: auto;
     padding-bottom: 50px;
 }
 
-#h1 {
-    font-family: HelveticaNeueCE35Thin;
+.title {
     font-size: 102px;
     letter-spacing: 2px;
     color: #FFFFFF;
@@ -26,29 +29,31 @@ main {
     position: absolute;
 }
 
-.color-borde {
+.color-border {
     border: 2pt;
     border-style: solid;
     border-color: #D0CCCC;
 }
 
-.lupa {
+.search-icon {
     padding: 6px 5px;
+    width: 15px;
+    height: 15px;
 }
 
-#lupa {
+.search-container {
     width: 24px;
     height: 27px;
     float: left;
     position: relative;
 }
 
-#people-search {
+.people-search {
     margin-top: 28px;
     margin-left: 53px;
 }
 
-#search {
+.search {
     width: 213px;
     height: 32.33px;
     padding: 1px 1px 1px 2px;
@@ -58,7 +63,7 @@ main {
     font-size: 18pt;
     color: #DFDFDF;
 }
-#boton {
+.my-button-search {
     position: relative;
     float: left;
     height: 32.33px;
@@ -74,21 +79,22 @@ main {
     cursor: pointer;
 }
 
-#boton:hover{
-    background-color: rgb(167, 167, 167);
-    transition: background-color .3s;
-}
-
-.selector-azul{
+.blue-selector {
     -webkit-appearance: checkbox;
 }
-label {
+
+.checkbox-container {
+    position: relative;
+    clear: left;
+    top: 5px;
+}
+
+.checkbox-text {
     background-color: #D0CCCC;
     width: 78px;
     height: 20px;
     padding:  2px 3px 2px 2px;
     color: #FFFFFF;
-    font-family: HelveticaNeueCE35Thin;
     font-size: 18px;
 }
 
@@ -102,7 +108,7 @@ label {
     box-shadow: rgb(68, 124, 162) -5px 5px; 
 }
 
-button {
+.intranet-button {
     -webkit-appearance: none;
     border: 0px;
     padding: 0px;
@@ -110,6 +116,7 @@ button {
     position: relative;
     float: left;
     cursor: pointer;
+    background-color: rgb(223, 223, 223);
 }
 
 .boton-in{
@@ -126,11 +133,12 @@ button:hover{
     border: 4px;
     border-color: #447CA2;
     border-style: solid;
+    width: 101px;
+    height: 101px;
 }
 
 .texto-depart {
     color: #447CA2;
-    font-family: HelveticaNeueCE35Thin;
     font-size: 21px;
     margin-top: 106px;
     margin-left: 43px;
@@ -138,15 +146,24 @@ button:hover{
 
 .texto-name-lastname {
     color: #447CA2;
-    font-family: HelveticaNeueCE35Thin;
+
     font-size: 21px;
     margin-top: 35px;
     margin-left: 43px;
 }
 
+.mail-icon {
+    width: 40px;
+    height: 45px;
+}
+
+.linkedin-icon {
+    width: 35px;
+    height: 45px;
+}
+
 .email {
     color: #848484;
-    font-family: HelveticaNeueCE35Thin;
     font-size: 14px;
     margin-top: 53px;
     margin-left: 43px;
@@ -154,7 +171,6 @@ button:hover{
 
 .phone {
     color: #848484;
-    font-family: HelveticaNeueCE35Thin;
     font-size: 14px;
     margin-top: 21px;
     margin-left: 43px;
@@ -168,11 +184,11 @@ button:hover{
     margin-right: 32px;
 }
 
-#perfil2 {
+.perfil2 {
     margin-left: 0px;
 }
 
-#perfil3 {
+.perfil3 {
     margin-left: 0px;
     margin-right: 32px;
 }

@@ -10,82 +10,72 @@
     <title>Task#2</title>
 </head>
  <body>
-    <header>
-        <span id="h1">Intranet</span>
+    <header class="headweb">
+        <div class="title">Intranet</div>
     </header>
-    <main>
+    <main class="main-area">
         <nav>
-            <form action="#" method="get" id="people-search">
-                <div id="lupa" class="color-borde">
-                    <img  class="lupa" src="lupa.png" width="15px" height="15px" alt="search">
+            <form action="#" method="get" class="people-search">
+                <div class="search-container color-border">
+                    <img  class="search-icon" src="lupa.png" alt="search">
                 </div>
-               
-                <input id="search" type="search" name="people-search" placeholder="search" aria-label="search throught site content" class="color-borde">
-                <input id="boton" type="submit" value="Search"> <br /> <br />
-                
-                <input class="selector-azul" checked type="radio" id="last-name" name="people-search" value="last-name" aria-label="last name">
-                <label for="last-name">Last Name</label>
-               
-                <input class="selector-azul" type="radio" id="first-name" name="people-search" value="first-name" aria-label="first name">
-                <label for="first-name">First Name</label>
-                
-                <input class="selector-azul" type="radio" id="department" name="people-search" value="department" aria-label="department">
-                <label for="department">Department</label>
+                <input class="color-border search" type="search" name="people-search" placeholder="search" aria-label="search throught site content">
+                <input class="my-button-search" type="submit" value="Search">
+                <div class="checkbox-container">
+                    <input class="blue-selector" checked type="radio" id="last-name" name="people-search" value="last-name" aria-label="last name">
+                    <label class="checkbox-text" for="last-name">Last Name</label>
+                    <input class="blue-selector" type="radio" id="first-name" name="people-search" value="first-name" aria-label="first name">
+                    <label class="checkbox-text" for="first-name">First Name</label>
+                    <input class="blue-selector" type="radio" id="department" name="people-search" value="department" aria-label="department">
+                    <label class="checkbox-text" for="department">Department</label>
+                </div>
             </form>
         </nav>
-
         <section class="perfil">
-            <img class="imagen-perfil" src="me.jpg" width="101px" height="101px" alt="imagen de perfil">
+            <img class="imagen-perfil" src="me.jpg" alt="imagen de perfil">
             <p class="texto-depart">Department</p>
             <p class="texto-name-lastname">Name Last Name</p>
             <p class="email">namelastname@organistation.com.cu</p>
             <p class="phone" >Phone: 00 222 333</p>
-            <button>
-                <img src="mensaje.png" width="40px" height="45px" alt="email icon">
+            <button class="intranet-button">
+                <img class="mail-icon" src="mensaje.png" alt="email icon">
             </button>
-
-            <button class="boton-in">
-                <img src="in.png" width="35px" height="45px" alt="LinkedIn icon">
+            <button class="intranet-button boton-in">
+                <img class="linkedin-icon" src="in.png" alt="LinkedIn icon">
             </button>
         </section>
-
-        <section id="perfil2" class="perfil">
-            <img class="imagen-perfil" src="tahy.jpg" width="101px" height="101px" alt="imagen de perfil">
+        <section class="perfil perfil2">
+            <img class="imagen-perfil" src="tahy.jpg" alt="imagen de perfil">
             <p class="texto-depart">Department</p>
             <p class="texto-name-lastname">Name Last Name</p>
             <p class="email">namelastname@organistation.com.cu</p>
             <p class="phone" >Phone: 00 222 333</p>
-            <button>
-                <img src="mensaje.png" width="40px" height="45px" alt="email icon">
+            <button class="intranet-button">
+                <img class="mail-icon" src="mensaje.png" alt="email icon">
             </button>
-
-            <button class="boton-in">
-                <img src="in.png" width="35px" height="45px" alt="LinkedIn icon">
+            <button class="intranet-button boton-in">
+                <img class="linkedin-icon" src="in.png" alt="LinkedIn icon">
             </button>
         </section>
-
-        <section id="perfil3" class="perfil">
-            <img class="imagen-perfil" src="leo.jpg" width="101px" height="101px" alt="imagen de perfil">
+        <section class="perfil perfil3">
+            <img class="imagen-perfil" src="leo.jpg" alt="imagen de perfil">
             <p class="texto-depart">Department</p>
             <p class="texto-name-lastname">Name Last Name</p>
             <p class="email">namelastname@organistation.com.cu</p>
             <p class="phone" >Phone: 00 222 333</p>
-            <button>
-                <img src="mensaje.png" width="40px" height="45px" alt="email icon">
+            <button class="intranet-button">
+                <img class="mail-icon" src="mensaje.png" alt="email icon">
             </button>
-
-            <button class="boton-in">
-                <img src="in.png" width="35px" height="45px" alt="LinkedIn icon">
+            <button class="intranet-button boton-in">
+                <img class="linkedin-icon" src="in.png" alt="LinkedIn icon">
             </button>
         </section>
-
         <div class="arrow">
             <img src="flecha delante.png" height="51px" width="30px" alt="next">
         </div>
-
         <div class="arrow">
             <img src="flecha atras.png" height="51px" width="30px" alt="back">
         </div>
     </main>
  </body>
-</html>  
+</html>
