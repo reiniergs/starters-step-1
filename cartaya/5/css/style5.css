@@ -1,27 +1,26 @@
 body {
-    margin: 0px;
+    margin: 0;
     color: white;
     font-family: sans-serif;
 }
 
-header {
+.task5-bar-info {
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: smaller;
     height: 38px;
     background-color: #333333;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding-left: 130px;
     padding-right: 180px;
 }
 
-.paragraph-header, header div {
-    margin: 0px;
+.paragraph-header, .task5-bar-info div {
     display: inline-block;
 }
 
-.button {
+.task5-button {
     -webkit-appearance: none;
     -moz-appearance: none;
     display: inline;
@@ -50,23 +49,23 @@ header {
     content: "\f107";
 }
 
-.location,.date,.fa.fa-user.button {
+.location,.date,.fa.fa-user.task5-button {
     margin-left: 30px;
 }
 
-.button.register {
+.task5-button.register {
     font-family: ar;
     display: inline;
 }
 
-main {
+.task5-principal-area {
     height: 80vh;
-    background-image: url('img.jpeg');
+    background-image: url('../img/img.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-main > nav {
+.task5-principal-area > .task5-link-bar {
     display: flex;
     justify-content: space-between;
     padding-left: 130px;
@@ -83,17 +82,17 @@ main > nav {
     font-size: 60px;
 }
 
-main nav div p {
+.task5-principal-area .task5-link-bar div p {
     font-size: 30px;
     margin: 0px 0px 0px 5px;
 }
 
-.strong {
+.task5-link-bar div p.strong {
     font-weight: 600;
     margin-left: 15px;
 }
 
-.button-nav {
+.task5-button-nav {
     -webkit-appearance: none;
     -moz-appearance: none;
     height: 100%;
@@ -108,7 +107,7 @@ main nav div p {
     padding: 0px;
 }
 
-.button-nav:hover {
+.task5-button-nav:hover {
     border-bottom: 3px;
     border-bottom-color: rgb(254, 221, 48);
     border-bottom-style: solid;
@@ -131,14 +130,14 @@ main nav div p {
     font-size: 20px;
 }
 
-#section-tittle {
+.section-tittle {
     height: 100px;
     display: flex;
     justify-content: space-between;
     margin-top: 20vh;
 }
 
-.button-arrow, .fa.fa-angle-right, .fa.fa-angle-left{
+.task5-button-arrow, .fa.fa-angle-right, .fa.fa-angle-left{
     -webkit-appearance: none;
     -moz-appearance: none;
     height: 100px;
@@ -153,7 +152,7 @@ main nav div p {
     font-size: 50px;
 }
 
-main h1, main p {
+.task5-button.task5-button-courses p {
     margin: 0px;
 }
 
@@ -162,9 +161,11 @@ main h1, main p {
     font-size: 40px;
     text-align: center;
     font-weight: bold;
+    margin: 0px;
 }
 
 .yellow {
+    margin: 0px;
     color: rgb(254, 221, 48);
 }
 
@@ -174,10 +175,10 @@ main h1, main p {
     border: 2px solid white;
     border-right: 0px;
     font-size: 20px;
-    padding: 5px 12px 5px 12px;
+    padding: 5px 12px 3px 12px;
 }
 
-.button.courses-button p {
+.task5-button.task5-button-courses p {
     display: inline-block;
     background-color: white;
     color: black;
@@ -189,7 +190,7 @@ main h1, main p {
     margin: 0px; 
 }
 
-.button.courses-button {
+.task5-button.task5-button-courses {
     display: flex;
     margin: auto;
     margin-top: 20px;
@@ -240,7 +241,7 @@ p.p-card {
     line-height: 20px;
 }
 
-h2.h2-card {
+h2.title-card {
     margin: 0px;
     font-size: 15px;
     margin-top: 15px;
