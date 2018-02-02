@@ -2,11 +2,9 @@ body {
     background-color: #673AB7;
 }
 
-form {
-    display: flex;
-}
-
-.button {
+.click-me-button {
+    display: block;
+    margin: 20vh auto;
     border: 3px;
     border-style: solid;
     border-color: #941717;
@@ -18,5 +16,4 @@ form {
     color: #FDF3E1;
     font-size: 20px;
     cursor: pointer;
-    margin: 20vh auto;
 }
