@@ -1,8 +1,16 @@
+@font-face {
+    font-family: 'Camphor-Light';
+    src: url("./font/Camphor-W01-Light.ttf");
+}
+
+.camphor {
+    font-family: 'Camphor-Light', 'Arial', sans-serif;
+    font-weight: 300;
+}
 .tooltip-container {
     align-items: center;
     background-color: rgba(136, 152, 170, 0.15);
     display: flex;
-    font-family: 'Camphor', 'Arial', sans-serif;
     height: 100vh;
     justify-content: center;
 }
@@ -11,7 +19,6 @@
     background: #ffffff;
     border-radius: 4px;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.25);
-    height: 194px;
     position: relative;
     width: 960px;
 }
@@ -50,23 +57,31 @@
     width: 960px;
 }
 
+.tooltip-error-icon {
+    margin: 0 18px 0 26px;
+}
+
 .tooltip-banner-text {
     color: #ffffff;
+    font-family: 'Camphor-Light', 'Arial', sans-serif;
     font-size: 20px;
-    font-weight: 100;
-    margin: 0 0 0 64px;
+}
+
+.tooltip-close-icon {
+    margin-left: auto;
+    margin-right: 24px;
 }
 
 .tooltip-description {
     color: rgba(0, 0, 0, 0.87);
     font-size: 16px;
-    font-weight: lighter;
-    margin: 12px 24px 24px 24px;
+    font-family: 'Camphor-Light', 'Arial', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    padding: 12px 24px;
+    text-align: left;
 }
 
-.tooltip-close-icon {
-    color: #ffffff;
-    font-weight: bold;
-    margin-left: auto;
-    margin-right: 24px;
-}
