@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_error_24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Message-error" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-186.000000, -338.000000)">
+        <g transform="translate(160.000000, 320.000000)" id="Group-2">
+            <g transform="translate(24.000000, 16.000000)">
+                <g id="ic_do_not_disturb_on_24px/white">
+                    <g id="ic_do_not_disturb_on_24px">
+                        <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                        <path d="M12,2 C6.48,2 2,6.48 2,12 C2,17.52 6.48,22 12,22 C17.52,22 22,17.52 22,12 C22,6.48 17.52,2 12,2 Z M17,13 L7,13 L7,11 L17,11 L17,13 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
