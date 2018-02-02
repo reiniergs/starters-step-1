@@ -9,6 +9,7 @@
 
 body {
     overflow: auto;
+    font-family: HelveticaNeueCE35Thin;
 }
 
 .section-left, .section-right {
@@ -46,7 +47,6 @@ body {
 }
 
 .title {
-    font-family: HelveticaNeueCE35Thin;
     font-size: 38px;
     font-weight: lighter; 
     letter-spacing: 2.2px;
@@ -94,12 +94,41 @@ body {
     margin-top: 40px;
 }
 
-.h1-profile-name {
-    font-family: HelveticaNeueCE35Thin;
+.profile-name {
     font-size: 32px;
     font-weight: lighter;
     position: absolute;
     top: -73px;
+}
+
+.name-icon {
+    width: 25px;
+    height: 15px;
+}
+
+.ocupation-icon {
+    width: 29px;
+    height: 23px;
+}
+
+.address-icon {
+    width: 29px;
+    height: 26px;
+}
+
+.city-country-icon {
+    width: 36px;
+    height: 33px;
+}
+
+.mail-icon {
+    width: 28.5px;
+    height: 17px;
+}
+
+.telephone-icon {
+    width: 22.5px;
+    height: 22.5px;
 }
 
 .footer-left {
@@ -107,7 +136,6 @@ body {
 }
 
 .footer-left h1 {
-    font-family: HelveticaNeueCE35Thin;
     font-size: 30px;
     font-weight: lighter;
     color: #171717;
@@ -115,7 +143,6 @@ body {
 }
 
 .footer-left button {
-    font-family: HelveticaNeueCE35Thin;
     font-size: 21px;
     font-weight: lighter;
     color: #746767;
@@ -129,6 +156,8 @@ body {
 
 .spiral-img {
     float: left;
+    width: 46px;
+    height: 598px;
     margin-top: 50px;
     position: relative;
     left: -25px;
@@ -158,7 +187,12 @@ body {
     margin: 26px 15px 0px 0px;
 }
 
-video {
+.add-img-profiles {
+    width: 135px;
+    height: 140px;
+}
+
+.video-tutorial video {
     width: 198px;
     height: 140px;
     display: inline-block;    
@@ -167,7 +201,7 @@ video {
     background-color: #828181;
 }
 
-fieldset {
+.attachments {
     margin-top: 26px;
     display: inline-block;
     width: 170px;
@@ -180,19 +214,18 @@ fieldset {
     border-color: #B1B1B1;
 }
 
-legend {
+.attachments legend {
     width: 119px;
     height: 18.5px;
-    font-family: HelveticaNeueCE35Thin;
     font-size: 18px;
     color: #727272;
     background-color: #B1B1B1;
     padding-left: 5px;
-    padding-bottom: 3px;
+    padding-bottom: 2px;
+    padding-top: 2px;
 }
 
-fieldset  div  a {
-    font-family: HelveticaNeueCE35Thin;
+.lnk {
     font-size: 14px;
     display: inline-block;
     color: #746767;
@@ -203,11 +236,13 @@ fieldset  div  a {
     margin-bottom: 6px;
 }
 
-fieldset  div  img {
+.icon-lnk {
     cursor: pointer;
+    width: 15px;
+    height: 16.5px;
 }
 
-fieldset div {
+.lnk-container {
     display: flex;
     align-items: center;
 }
