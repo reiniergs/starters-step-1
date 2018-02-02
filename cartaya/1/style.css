@@ -1,32 +1,45 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.877);
 }
-section {
+
+.main-area {
 	height: 75vh;
 	background-color: #FFA600;
 }
-a {
+
+.lnk {
     font-size: 48px;
     display: inline-block;
     text-decoration: none;
     border-bottom: 5px solid rgba(255, 255, 255, 0.692); 
     color: rgba(255, 255, 255, 0.877);
-    
+    line-height: 1;
 }
-img {
+
+.cover-book {
 	margin: 8% 0 0 8%;
 	width: 310px;
 	position: absolute;
 }
-div.txt {
+
+.download {
+    display: inline;
+}
+
+.download-lnk {
 	margin: 16% 0 0 38%;
 	position: absolute;
 	display: inline-block;
-	color: rgba(255, 255, 255, 0.877);
     font-size: 25px;
     line-height: 1.5;
 }
-a {
-    line-height: 1;
+
+.preface {
+    margin-top: 40px;
+}
+
+.preface p {
+    margin: 0px;
 }
