@@ -1,0 +1,48 @@
+body {
+    color: #ffffff;
+    color: rgba(255, 255, 255, 0.877);
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.main-area {
+	background-color: #FFA600;
+	height: 75vh;
+}
+
+.lnk {
+    border-bottom: 5px solid #ffffff; 
+    border-bottom: 5px solid rgba(255, 255, 255, 0.692);
+    color: #ffffff;
+    color: rgba(255, 255, 255, 0.877);
+    display: inline-block;
+    font-size: 48px;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.cover-book {
+	margin: 8% 0 0 8%;
+	position: absolute;
+	width: 310px;
+}
+
+.download {
+    display: inline;
+}
+
+.download-lnk {
+	display: inline-block;
+    font-size: 25px;
+    line-height: 1.5;
+	margin: 16% 0 0 38%;
+	position: absolute;
+}
+
+.preface {
+    margin-top: 40px;
+}
+
+.preface p {
+    margin: 0;
+}
