@@ -1,19 +1,19 @@
 body {
-    margin: 0;
     color: white;
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
 }
 
 .task5-bar-info {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+    background-color: #333333;
+    display: flex;
     font-size: smaller;
     height: 38px;
-    background-color: #333333;
+    justify-content: space-between;
     padding-left: 130px;
     padding-right: 180px;
+    position: relative;
 }
 
 .paragraph-header, .task5-bar-info div {
@@ -21,13 +21,13 @@ body {
 }
 
 .task5-button {
-    -webkit-appearance: none;
     -moz-appearance: none;
-    display: inline;
-    border: 0px;
+    -webkit-appearance: none;
     background: transparent;
-    cursor: pointer;     
+    border: 0;
     color: white;
+    cursor: pointer;     
+    display: inline;
 }
 
 .register {
@@ -45,24 +45,23 @@ body {
 }
 
 .fa-angle-down::before {
-    display: none;
     content: "\f107";
+    display: none;
 }
 
-.location,.date,.fa.fa-user.task5-button {
+.location,.date, .fa-user {
     margin-left: 30px;
 }
 
-.task5-button.register {
-    font-family: ar;
+.register {
     display: inline;
 }
 
 .task5-principal-area {
-    height: 80vh;
     background-image: url('../img/img.jpeg');
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
 }
 
 .task5-principal-area > .task5-link-bar {
@@ -74,37 +73,39 @@ body {
 }
 
 .cachet {
-    display: flex;
     align-items: center;
+    display: flex;
 }
 
-.fa.fa-trophy {
+.fa-trophy::before {
+    content: "\f091";
     font-size: 60px;
 }
 
-.task5-principal-area .task5-link-bar div p {
+.text-logo-not-strong {
     font-size: 30px;
-    margin: 0px 0px 0px 5px;
+    margin: 0 0 0 5px;
 }
 
-.task5-link-bar div p.strong {
+.text-logo-strong {
+    font-size: 30px;
     font-weight: 600;
-    margin-left: 15px;
+    margin: 0 0 0 15px;
 }
 
 .task5-button-nav {
-    -webkit-appearance: none;
     -moz-appearance: none;
-    height: 100%;
-    border: 0px;
+    -webkit-appearance: none;
     background: transparent;
-    cursor: pointer;     
+    border: 0;
     color: white;
-    font-size: 16px;
+    cursor: pointer;     
     font-family: sans-serif;
+    font-size: 16px;
     font-weight: bold;
+    height: 100%;
     margin-left: 17px;
-    padding: 0px;
+    padding: 0;
 }
 
 .task5-button-nav:hover {
@@ -113,84 +114,88 @@ body {
     border-bottom-style: solid;
 }
 
-.fa.fa-search {
-    height: 40px;
-    width: 40px;
+.fa-search {
     border: 3px solid rgb(254, 221, 48);
     color: rgb(254, 221, 48);
     margin-left: 20px;
+    min-height: 40px;
+    min-width: 40px;
 }
 
-.fa.fa-cog {
-    height: 40px;
-    width: 40px;
-    color: white;
+.fa-cog::before {
     background-color: rgb(254, 221, 48);
-    margin-left: 20px;
+    color: white;
+    content: "\f013";
     font-size: 20px;
+    margin-left: 20px;
+    padding: 10px 12px 10px 10px;
 }
 
 .section-tittle {
-    height: 100px;
     display: flex;
+    height: 100px;
     justify-content: space-between;
     margin-top: 20vh;
 }
 
-.task5-button-arrow, .fa.fa-angle-right, .fa.fa-angle-left{
-    -webkit-appearance: none;
+.task5-button-arrow {
     -moz-appearance: none;
-    height: 100px;
-    width: 100px;
-    border: 0px;
-    background: transparent;
-    cursor: pointer;     
-    color: white;
-    padding: 0px;
+    -webkit-appearance: none;
+    background-color: rgb(46, 45, 45);
     background-color: rgba(0, 0, 0, 0.3);
+    border: 0;
+    color: white;
+    cursor: pointer;
     font-weight: lighter;
+    height: 100px;
+    padding: 0;
+    width: 100px;
+}
+
+.fa-angle-right::before {
+    content: "\f105";
     font-size: 50px;
 }
 
-.task5-button.task5-button-courses p {
-    margin: 0px;
+.fa-angle-left::before {
+    content: "\f104";
+    font-size: 50px;
 }
 
 .mess {
     font-family: sans-serif;
     font-size: 40px;
-    text-align: center;
     font-weight: bold;
-    margin: 0px;
+    margin: 0;
+    text-align: center;
 }
 
 .yellow {
-    margin: 0px;
     color: rgb(254, 221, 48);
+    margin: 0;
 }
 
 .fa.fa-thumbs-up {
     color: white;
     background-color: transparent;
     border: 2px solid white;
-    border-right: 0px;
+    border-right: 0;
     font-size: 20px;
     padding: 5px 12px 3px 12px;
 }
 
-.task5-button.task5-button-courses p {
-    display: inline-block;
+.task5-button-courses p {
     background-color: white;
     color: black;
+    display: inline-block;
     font-family: sans-serif;
     font-size: smaller;
     font-weight: bold;
-    background-color: white;
+    margin: 0; 
     padding: 11px 25px 11px 25px;
-    margin: 0px; 
 }
 
-.task5-button.task5-button-courses {
+.task5-button-courses {
     display: flex;
     margin: auto;
     margin-top: 20px;
@@ -203,46 +208,44 @@ body {
 }
 
 .green-card {
-    width: 200px;
-    height: 230px;
-    padding: 30px 20px 0px 20px;
     background-color: rgb(16, 195, 93);
+    max-width: 200px;
+    min-height: 230px;
+    padding: 30px 20px 0 20px;
 }
 
 .yellow-card {
-    width: 200px;
-    height: 230px;
-    padding: 30px 20px 0px 20px;
     background-color: rgb(254, 199, 54);
+    max-width: 200px;
+    min-height: 230px;
+    padding: 30px 20px 0 20px;
 }
 
 .blue-card {
-    width: 200px;
-    height: 230px;
-    padding: 30px 20px 0px 20px;
     background-color: rgb(49, 122, 214);
+    max-width: 200px;
+    min-height: 230px;
+    padding: 30px 20px 0 20px;
 }
 
 .fucsia-card {
-    width: 200px;
-    height: 230px;
-    padding: 30px 20px 0px 20px;
     background-color: rgb(234, 72, 175);
+    max-width: 200px;
+    min-height: 230px;
+    padding: 30px 20px 0 20px;
 }
 
 i.fa-colors-card {
     font-size: 40px;
 }
 
-p.p-card {
-    margin: 0px;
+.p-card {
     font-size: 12px;
-    margin-top: 15px;
     line-height: 20px;
+    margin: 15px 0 0 0 ;
 }
 
-h2.title-card {
-    margin: 0px;
+.title-card {
     font-size: 15px;
-    margin-top: 15px;
+    margin: 15px 0 0 0;
 }
