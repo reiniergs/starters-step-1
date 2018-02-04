@@ -1,0 +1,45 @@
+@font-face {
+    src: url('./font/Camphor-W01-Light.eot?#iefix') format('embedded-opentype'),
+         url('./font/Camphor-W01-Light.woff') format('woff'),
+         url('./font/Camphor-W01-Light.ttf') format('truetype'),
+         url('./font/CamphorW01-Light.svg#FontName') format('svg');
+}
+
+.view-port {
+    margin: 0;
+}
+
+.container {
+    align-items: center;
+    background-color: rgb(47,47,48);
+    display: flex;
+    font-family: 'Camphor-Light', 'Arial', sans-serif;
+    font-weight: lighter;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.error-image {
+    height: 83px;
+    margin-bottom: 49px;
+    width: 215px;
+}
+
+.error-message {
+    color: #969696;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.go-back-to-page {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+}
