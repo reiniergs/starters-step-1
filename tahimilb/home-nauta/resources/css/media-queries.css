@@ -2,9 +2,9 @@
     
     /* ----- HOME NAUTA ----- */
     .starters-step-1-home-nauta-background-image {
-        background-size: cover;
-        background-position: center;
         background-position: 80% 20%;
+        background-position: center;
+        background-size: cover;
     }
 
     .starters-step-1-home-nauta-main-content-container {
@@ -42,11 +42,11 @@
     }
 
     h2.starters-step-1-home-nauta-text-slogan {
-        text-align: center;
-        font-size: 16px;
-        position: absolute;
         bottom: 0;
+        font-size: 16px;
         left: 0;
+        position: absolute;
+        text-align: center;
     }
 
     p.starters-step-1-home-nauta-footer-question {
