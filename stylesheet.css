@@ -1,13 +1,18 @@
-.home-page--container {
+.view-port {
+    margin: 0;
+}
+
+.profile-cards-container {
     align-items: center;   
     background-color: #202020;
     display: flex;
     font-family: 'Lato', sans-serif;
     height: 100vh;
     justify-content: center;
+    position: relative;
 }
 
-.home-page--profile-info-container {
+.profile-card {
     align-items: center;
     background-color: #181818;
     border-radius: 2px;
@@ -18,23 +23,27 @@
     width: 260px;
 }
 
-.home-page--profile-info-container:hover {
+.profile-card:hover {
     background-color: #181818;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.25);
     margin-top: 2.8px;
 }
 
-.home-page--profile-info-container:not(:last-child) {
+.profile-card:hover .profile-card-project-list {
+    display: flex;
+}
+
+.profile-card:not(:last-child) {
     margin-right: 24px;
 }
 
-.home-page--profile-img {
+.profile-card-img {
     border-radius: 2px 2px 0 0;
     height: 180px;
     width: 260px;
 }
 
-.home-page--profile-name {
+.profile-card-name {
     color: #b8e986;
     font-size: 18px;
     font-weight: 300;
@@ -46,7 +55,7 @@
     width: 228px;
 }
 
-.home-page--profile-email {
+.profile-card-email {
     color: #ffffff;
     font-size: 14px;
     font-weight: 100;
@@ -55,14 +64,38 @@
     text-decoration: none;
 }
 
-.home-page--profile-link-to-projects {
+.profile-card-project-list {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profile-card-project-list {
+    display: none;
+}
+
+.profile-card-projects-title {
     color: #b8e986;
     font-size: 16px;
     font-weight: 300;
-    margin-bottom: 51px;
+    margin-bottom: 16px;
     text-align: center;
 }
 
-.home-page--profile-link-to-projects:hover {
-    color: #ffffff;
+.profile-card-projects:not(:last-child) {
+    margin-bottom: 4px;
 }
+
+.profile-card-projects:last-child {
+    margin-bottom: 30px;
+}
+.profile-card-projects {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+
+
