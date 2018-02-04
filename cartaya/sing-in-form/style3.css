@@ -1,0 +1,93 @@
+body {
+    background-color: #3b6290;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 16px;
+}
+
+.sing-in-form-principal-area {
+    background-color: white;
+    border: 8px solid #2b517e;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.sing-in-form-head-step {
+    border-bottom: 1px;
+    border-bottom-color: #dcdddf;
+    border-bottom-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sing-in-form-circle {
+    align-items: center;
+    background-color: #3b6290;
+    border-radius: 30px;
+    color: whitesmoke;
+    display: inline-flex;
+    font-size: 15px;
+    height: 30px;
+    justify-content: center;
+    width: 30px;
+}
+
+.sing-in-form-title-step {
+    color: #3b6290;
+    display: inline;
+    margin-left: 10px;
+}
+
+.sing-in-form-circle-container {
+    margin-left: 35px;
+    padding: 35px 0;
+}
+
+.sing-in-form-circle-unable-title {
+    color: #B6B6B6;
+}
+
+.sing-in-form-circle-unable {
+    background-color: #B6B6B6;
+}
+
+/*Form form here*/
+
+.sing-in-form-step-one-form {
+    color: #818181;
+    padding: 35px 35px 35px 35px;
+}
+
+.sing-in-form-step-one-input {
+    border: 3px solid #dddddd;
+    border-radius: 3px;
+    box-sizing: border-box; /* csslint allow: box-sizing */
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 12px;
+    width: 100%;
+}
+
+.sing-in-form-last-name, .sing-in-form-password-confirm, .sing-in-form-password, .sing-in-form-first-name {
+    display: inline-block;
+    margin-top: 35px;
+    width: 47%;    
+}
+
+.sing-in-form-last-name, .sing-in-form-password-confirm {
+    float: left;
+}
+
+.sing-in-form-password, .sing-in-form-first-name {
+    float: right;
+}
+
+.sing-in-form-step-one-button {
+    background-color: #f5cb2d;
+    border: 2px solid #DBB733;
+    border-radius: 3px;
+    color: #877634;
+    display: inline-block;
+    font: 600 16px Verdana;
+    margin-top: 35px;
+    text-align: center;
+}
