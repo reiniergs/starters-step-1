@@ -1,9 +1,10 @@
 @font-face {
-    src: url("/font/Camphor-W01-Light.eot?#iefix") format("embedded-opentype");
-         url("/font/Camphor-W01-Light.ttf") format("truetype");
-         url("/font/Camphor-W01-Light.woff") format("woff");
-         url("/font/Camphor-W01-Light.svg#svgFontName") format("svg");
+    src: url('./font/Camphor-W01-Light.eot?#iefix') format('embedded-opentype'),
+         url('./font/Camphor-W01-Light.woff') format('woff'),
+         url('./font/Camphor-W01-Light.ttf') format('truetype'),
+         url('./font/CamphorW01-Light.svg#FontName') format('svg');
 }
+
 .view-port {
     margin: 0;
 }
@@ -23,22 +24,22 @@
 }
 
 .error-image {
-    width: 215px;
     height: 83px;
     margin-bottom: 49px;
+    width: 215px;
+}
 
-    }
 .error-message {
-    text-align: center;
     color: #969696;
     font-size: 16px;
     margin: 0;
     margin-bottom: 4px;
+    text-align: center;
 }
 
 .go-back-to-page {
-    text-align: center;
     color: #ffffff;
     font-size: 16px;
     font-weight: lighter;
+    text-align: center;
 }
