@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.profile-page-intranet--header {
+    background-color: #447CA2;
+    height: 102px;
+    margin-top: 57px;    
+}
+
+.profile-page-intranet--main-area {
+    overflow: auto;
+    padding-bottom: 50px;
+}
+
+.profile-page-intranet--title-header {
+    color: #FFFFFF;
+    font-size: 102px;
+    letter-spacing: 2px;
+    margin-left: 53px;
+    padding-top: 7px;
+    position: absolute;
+}
+
+.profile-page-intranet--color-border {
+    border: 2pt;
+    border-color: #D0CCCC;
+    border-style: solid;
+}
+
+.profile-page-intranet--search-icon {
+    height: 15px;
+    width: 15px;
+}
+
+.profile-page-intranet--search-container {
+    align-items: center;
+    display: flex;
+    float: left;
+    height: 27px;
+    justify-content: center;
+    position: relative;
+    width: 24px;
+}
+
+.profile-page-intranet--people-search {
+    margin-left: 53px;
+    margin-top: 28px;
+}
+
+.profile-page-intranet--search {
+    color: #DFDFDF;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    height: 32.33px;
+    position: relative;
+    width: 213px;
+}
+.profile-page-intranet--my-button-search {
+    align-items: center;
+    background-color: #447CA2;
+    border: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    height: 32.33px;
+    justify-content: center;
+    margin: 0 0 0 2px;
+    position: relative;
+    text-align: left;
+    width: 116px;
+}
+
+.profile-page-intranet--blue-selector {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+}
+
+.profile-page-intranet--checkbox-container {
+    clear: left;
+    position: relative;
+    top: 5px;
+}
+
+.profile-page-intranet--checkbox-text {
+    background-color: #D0CCCC;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding:  2px 3px 2px 2px;
+}
+
+.profile-page-intranet--perfil-section {
+    background-color: rgb(223, 223, 223);
+    box-shadow: rgb(68, 124, 162) -5px 5px; 
+    float: left;
+    height: 425px;
+    margin: 28px 53px 0 53px;
+    position: relative;
+    width: 321px;
+}
+
+.profile-page-intranet--intranet-button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: rgb(223, 223, 223);
+    border: 0;
+    cursor: pointer;
+    float: left;
+    margin-left: 43px;
+    padding: 0;
+    position: relative;
+}
+
+.profile-page-intranet--boton-in{
+    margin-left: 96px;
+}
+
+button:hover{
+    transform: scale(1.4,1.4);
+    transition: transform .3s;
+}
+
+.profile-page-intranet--imagen-perfil {
+    border-color: #447CA2;
+    border-style: solid;
+    border-width: 4px;
+    float: right;
+    height: 101px;
+    width: 101px; 
+}
+
+.profile-page-intranet--text-depart {
+    color: #447CA2;
+    font-size: 21px;
+    margin-left: 43px;
+    margin-top: 106px;
+}
+
+.profile-page-intranet--text-name-lastname {
+    color: #447CA2;
+    font-size: 21px;
+    margin-left: 43px;
+    margin-top: 35px;
+}
+
+.profile-page-intranet--mail-icon {
+    height: 45px;
+    width: 40px;
+}
+
+.profile-page-intranet--linkedin-icon {
+    height: 45px;
+    width: 35px;
+}
+
+.profile-page-intranet--email-text {
+    color: #848484;
+    font-size: 14px;
+    margin-left: 43px;
+    margin-top: 53px;
+}
+
+.profile-page-intranet--phone-text {
+    color: #848484;
+    font-size: 14px;
+    margin-bottom: 43px;
+    margin-left: 43px;
+    margin-top: 21px;
+}
+
+.profile-page-intranet--arrow {
+    float: left;
+    margin-right: 32px;
+    margin-top: 220px;
+    position: relative;
+}
+
+.profile-page-intranet--perfil2 {
+    margin-left: 0;
+}
+
+.profile-page-intranet--perfil3 {
+    margin-left: 0;
+    margin-right: 32px;
+}
+
+.profile-page-intranet--arrow:hover {
+    cursor: pointer;
+    transform: scale(1.4,1.4);
+    transition: transform .3s;
+}
