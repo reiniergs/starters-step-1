@@ -180,6 +180,11 @@ button:hover{
     position: relative;
 }
 
+.profile-page-intranet--arro-proportions {
+    height: 51px;
+    width: 30px;
+}
+
 .profile-page-intranet--perfil2 {
     margin-left: 0;
 }
