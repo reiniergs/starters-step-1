@@ -1,8 +1,8 @@
 @font-face {
-    src: url('./font/Camphor-W01-Light.eot?#iefix') format('embedded-opentype'),
-    url('./font/Camphor-W01-Light.woff') format('woff'),
-    url('./font/Camphor-W01-Light.ttf') format('truetype'),
-    url('./font/CamphorW01-Light.svg#FontName') format('svg');
+    src: url('font/Camphor-W01-Light.eot?#iefix') format('embedded-opentype'),
+    url('font/Camphor-W01-Light.woff') format('woff'),
+    url('font/Camphor-W01-Light.ttf') format('truetype'),
+    url('font/CamphorW01-Light.svg#FontName') format('svg');
 }
 
 .view-port {
