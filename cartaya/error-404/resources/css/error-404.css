@@ -2,6 +2,9 @@ body {
     margin: 0;
 }
 
+
+
+
 .error-404--body {
     align-items: center;
     background-color: rgb(47, 47, 47);
@@ -12,6 +15,9 @@ body {
     width: 100vw;
 }
 
+
+
+
 .error-404--container {
     font-family: arial, helvetica, sans-serif;
     font-size: 16px;
@@ -20,21 +26,30 @@ body {
     text-align: center;
 }
 
+
+
+
 .error-404--ErrorLogo {
     max-height: 85px;
     max-width: 216px;
 }
+
+
+
 
 .error-404--text {
 	color: #969696;
     margin: 49px 0 0 0;
 }
 
+
+
+
 .error-404--link-to-HomePage {
     border-bottom: solid 1px #ffffff;
     color: #ffffff;
     display: inline-block;
     margin: 4px 0 0 0;
-    padding: 0 0 4px 0;
+    min-height: 26px;
     text-decoration: inherit;
 }
