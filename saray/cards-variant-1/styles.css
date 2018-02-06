@@ -1,0 +1,63 @@
+@font-face {
+    src: url('font/Camphor-W01-Light.eot?#iefix') format('embedded-opentype'),
+    url('font/Camphor-W01-Light.woff') format('woff'),
+    url('font/Camphor-W01-Light.ttf') format('truetype'),
+    url('font/CamphorW01-Light.svg#FontName') format('svg');
+}
+
+.view-port {
+    margin: 0;
+
+}
+
+.card-container {
+    align-items: center;
+    background-color: #8898aa;
+    background-color: rgba(136, 152, 170, 0.1);
+    display: flex;
+    font-family: 'Camphor-Light', 'Arial', sans-serif;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+}
+
+.card {
+    align-items: center;
+    background-color: #ffffff; /* Lint fallback color */
+    border-radius: 4px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.38);
+    display: flex ;
+    flex-direction: column;
+    padding: 48px 32px;
+    width: 300px;
+}
+
+.card:not(:last-child) {
+    margin-right: 30px;
+}
+
+.card--brand {
+    background-color: #2196f3;
+}
+
+.card--dark {
+    background-color: #32373c;
+}
+
+.card-icon {
+    align-items: center;
+    margin-bottom: 22px;
+    width: 64px;
+
+}
+
+.card-description {
+    color: #2196f3;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card--brand .card-description,
+.card--dark .card-description {
+    color: #ffffff;
+}
