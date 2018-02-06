@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+.error-404--body {
+    align-items: center;
+    background-color: rgb(47, 47, 47);
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.error-404--container {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
+	line-height: 1.25;
+    max-width: 640px;
+    text-align: center;
+}
+
+.error-404--ErrorLogo {
+    max-height: 85px;
+    max-width: 216px;
+}
+
+.error-404--text {
+	color: #969696;
+    margin: 49px 0 0 0;
+}
+
+.error-404--link-to-HomePage {
+    border-bottom: solid 1px #ffffff;
+    color: #ffffff;
+    display: inline-block;
+    margin: 4px 0 0 0;
+    padding: 0 0 4px 0;
+    text-decoration: inherit;
+}
