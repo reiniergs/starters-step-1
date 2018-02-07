@@ -1,0 +1,90 @@
+@font-face {
+    src: url('/font/camphor-thin/Camphor-W01-Thin.eot?#iefix') format('embedded-opentype'),
+    url('./font/camphor-thin/Camphor-W01-Thin.woff') format('woff'),
+    url('./font/camphor-thin/Camphor-W01-Thin.ttf') format('truetype'),
+    url('./font/camphor-thin/CamphorW01-Thin.svg#FontName') format('svg');
+}
+
+.view-port {
+    margin: 0;
+}
+
+.container {
+    align-items: center;
+    background-color: #8898aa; /* lint fallback color*/
+    background-color: rgba(136, 152, 170, 0.1);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.review {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Camphor-Thin', 'Arial', sans-serif ;
+    max-width: 457px;
+    padding: 24px;
+}
+
+.review_heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review_info {
+    display: flex;
+}
+
+.review_image {
+    border-radius: 75%;
+    height: 40px;
+    margin: 0 20px 0 0;
+    width: 40px;
+}
+
+.review_name {
+    color: #000000; /* lint fallback color*/
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.25;
+    margin: 0 0 4px 0;
+}
+
+.review_date {
+    color: #000000; /* lint fallback color*/
+    color: rgba(0, 0, 0, 0.38);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.25;
+    margin: 0 0 14px 0;
+}
+
+.review_comment {
+    color: #000000; /* lint fallback color*/
+    color: rgba(0, 0, 0, 0.38);
+    font-size: 14px;
+    line-height: 1.57;
+    margin: 0 0 1px 0;
+}
+
+.review_show_more {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.review_show_more_text {
+    color: #000000; /* lint fallback color*/
+    color: rgba(0, 0, 0, 0.38);
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0 8px 0 0;
+}
+
+.review_show_more_icon {
+    margin: 0;
+    transform: rotate(90deg);
+}
