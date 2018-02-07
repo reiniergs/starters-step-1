@@ -21,10 +21,10 @@
 }
 
 .banner {
-    background-repeat: no-repeat;
     background-size: cover;
     background:  linear-gradient(rgba(0, 10, 25, 0.21), rgba(2, 51, 94, 0.56)), url("icons/image.svg");
     border-radius: 4px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     height: 220px;
