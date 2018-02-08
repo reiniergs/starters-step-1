@@ -61,8 +61,8 @@
 }
 
 .code-challenge_fold-link {
-    border-style: solid;
-    border-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
     color: #ffffff;
     font-size: 16px;
     font-weight: 200;
