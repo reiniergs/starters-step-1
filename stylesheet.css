@@ -84,7 +84,6 @@
     max-width: 980px;
 }
 .profile-cards-container {
-    align-items: center;
     display: flex;
     font-family: 'Lato', sans-serif;
     justify-content: center;
@@ -100,16 +99,6 @@
     flex-direction: column;
     overflow: hidden;
     width: 260px;
-}
-
-.profile-card:hover {
-    background-color: #181818;
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.25);
-    margin-top: 2.8px;
-}
-
-.profile-card:hover .profile-card-project-list {
-    display: flex;
 }
 
 .profile-card:not(:last-child) {
@@ -138,7 +127,6 @@
     color: #ffffff;
     font-size: 14px;
     font-weight: 100;
-    margin-bottom: 24px;
     text-align: center;
     text-decoration: none;
 }
@@ -148,16 +136,26 @@
     flex-direction: column;
 }
 
-.profile-card-project-list {
-    display: none;
-}
-
 .profile-card-projects-title {
     color: #b8e986;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     margin-bottom: 16px;
     text-align: center;
+}
+
+.profile-card-projects-badge {
+    background-color: #b8e986;
+    border-radius: 100%;
+    color: #191919;
+    display: inline-block;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 900;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 20px;
 }
 
 .profile-card-projects:not(:last-child) {
@@ -165,11 +163,20 @@
 }
 
 .profile-card-projects:last-child {
-    margin-bottom: 30px;
+    margin-bottom: 24px;
 }
 .profile-card-projects {
     color: #ffffff;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 100;
     text-align: center;
+}
+
+.profile-card-collaboration-icons {
+    margin-bottom: 24px;
+    margin-top: auto;
+}
+
+.profile-card-github-icon {
+    margin-right: 16px;
 }
