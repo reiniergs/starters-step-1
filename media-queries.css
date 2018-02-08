@@ -1,0 +1,65 @@
+@media (max-width: 1024px) {
+    .code-challenge_fold {
+        margin: 0 48px;
+    }
+
+    .code-challenge_fold-content-container {
+        flex-direction: column;
+    }
+
+    .code-challenge_fold-content {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 164px 0 48px 0;   
+    }
+
+    .code-challenge_fold-content-title {
+        text-align: center;
+    }
+
+    .code-challenge_fold-question {
+        text-align: center;
+    }
+
+    .code-challenge_fold-link-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .code-challenge_fold-image {
+        padding-bottom: 48px;
+        width: 100%; 
+    }
+}
+        
+@media (max-width: 700px) {
+    .code-challenge_fold {
+        margin: 0 16px;
+    }
+
+    .code-challenge_fold-content {
+        padding: 120px 0 0 0;
+    }
+
+    .code-challenge_fold-content-title {
+        font-size: 32px;
+        margin-bottom: 48px; 
+    }
+
+    .code-challenge_fold-question-container {
+        margin-bottom: 24px;
+    }
+
+    .code-challenge_fold-question {
+        font-size: 20px;
+    }
+
+    .fold-link--green {
+        margin-right: 16px;
+    }
+
+    .code-challenge_fold-image {
+        padding-bottom: 24px;
+    }
+}
