@@ -31,6 +31,18 @@
         padding-bottom: 48px;
         width: 100%; 
     }
+
+    .code-challenge_gamer-section {
+        margin: 100px 48px;
+    }
+
+    .profile-card {
+        margin-bottom: 32px;
+    }
+
+    .gamer-section_footer-container {
+        padding-top: 16px;
+    }
 }
         
 @media (max-width: 700px) {
@@ -61,5 +73,30 @@
 
     .code-challenge_fold-image {
         padding-bottom: 24px;
+    }
+
+    .code-challenge_gamer-section {
+        margin: 48px 16px;
+    }
+
+    .gamer-section_search-container {
+        width: calc(100% - 32px);
+    }
+
+    .gamer-section_input-search-element {
+        width: 100%;
+    }
+
+    .profile-card {
+        margin-bottom: 24px;
+        width: 100%;
+    }
+
+    .profile-card-img {
+        width: 100%;
+    }
+
+    .gamer-section_footer-container {
+        margin-top: 0;
     }
 }
