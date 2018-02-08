@@ -3,6 +3,12 @@
     margin: 0;  
 }
 
+.font-lato {
+    font-family: 'Lato';
+    font-weight: 200;
+    line-height: 1.5;
+}
+
 .code-challenge_top-bar {
     align-items: center;
     background-color: #181818;
@@ -18,7 +24,6 @@
 /* ----- FOLD ----- */
 
 .code-challenge_fold {
-    font-family: 'Lato';
     margin-left: auto;
     margin-right: auto;
     max-width: 980px; 
@@ -41,8 +46,6 @@
 .code-challenge_fold-content-title {
     align-self: flex-start;
     font-size: 40px;
-    font-weight: 100;
-    line-height: 1.5;
     margin: 0;
     margin-bottom: 48px;
     text-align: left;
@@ -54,7 +57,6 @@
 
 .code-challenge_fold-question {
 	font-size: 24px;
-	font-weight: 200;
     margin: 0;
     margin-bottom: 24px;
     text-align: left;
@@ -65,8 +67,6 @@
     border-bottom-width: 1px;
     color: #ffffff;
     font-size: 16px;
-    font-weight: 200;
-    height: 26px;
     text-decoration: none;
     text-transform: uppercase;
 }
