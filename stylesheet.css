@@ -1,13 +1,92 @@
-.view-port {
-    margin: 0;
+.code-challenge_view-port {
+    background-color: #202020;
+    margin: 0;  
 }
 
+.code-challenge_top-bar {
+    align-items: center;
+    background-color: #181818;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+    display: flex;
+    height: 64px;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+
+
+/* ----- FOLD ----- */
+
+.code-challenge_fold {
+    font-family: 'Lato';
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px; 
+}
+
+.code-challenge_fold-content-container {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    
+}
+
+.code-challenge_fold-content {
+    box-sizing: border-box; /* csslint allow: box-sizing */
+    color: #ffffff;
+    padding-right: 16px;
+}
+
+.code-challenge_fold-content-title {
+    align-self: flex-start;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 48px;
+    text-align: left;
+}
+
+.code-challenge_fold-question-container {
+    margin-bottom: 100px;
+}
+
+.code-challenge_fold-question {
+	font-size: 24px;
+	font-weight: 200;
+    margin: 0;
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+.code-challenge_fold-link {
+    border-style: solid;
+    border-width: 1px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 200;
+    height: 26px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.fold-link--green {
+    color: #b8e986;
+    margin-right: 32px;
+}
+
+
+/* ----- GAMER SECTION ----- */
+
+.code-challenge_gamer-section {
+    margin: 100px auto;
+    max-width: 980px;
+}
 .profile-cards-container {
-    align-items: center;   
-    background-color: #202020;
+    align-items: center;
     display: flex;
     font-family: 'Lato', sans-serif;
-    height: 100vh;
     justify-content: center;
     position: relative;
 }
@@ -67,7 +146,6 @@
 .profile-card-project-list {
     display: flex;
     flex-direction: column;
-
 }
 
 .profile-card-project-list {
@@ -95,7 +173,3 @@
     font-weight: 300;
     text-align: center;
 }
-
-
-
-
