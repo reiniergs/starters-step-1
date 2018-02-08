@@ -139,7 +139,6 @@
     outline: none;
     padding: 4px 8px 4px 40px;
     width: 400px;
-    z-index: -1;
 }
 
 .gamer-section_input-search-element:focus {
