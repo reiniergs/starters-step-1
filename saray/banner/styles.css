@@ -12,7 +12,8 @@
 
 .container {
     align-items: center;
-    background-color: rgba(136, 152, 170, 0.1);
+    background-color: rgba(136, 152, 170, 0.1); /* csslint allow: fallback-colors */
+    color: #8898aa;
     display: flex;
     font-family: 'Camphor-Light', 'Arial', sans-serif;
     height: 100vh;
@@ -24,7 +25,7 @@
     background-size: cover;
     background:  linear-gradient(rgba(0, 10, 25, 0.21), rgba(2, 51, 94, 0.56)), url("icons/image.svg");
     border-radius: 4px;
-    box-sizing: border-box;
+    box-sizing: border-box; /* csslint allow: box-sizing */
     display: flex;
     flex-direction: column;
     height: 220px;
