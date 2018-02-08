@@ -43,3 +43,7 @@ Here are some examples:
     color: black; 
 }
 ```
+
+For more info see:
+
+https://medium.freecodecamp.org/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849
