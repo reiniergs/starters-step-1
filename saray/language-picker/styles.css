@@ -15,7 +15,7 @@
     justify-content: center;
 }
 
-.lang_picker {
+.lang-picker {
     background-color: #fafafa;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 0 8px 0 rgba(0, 0, 0, 0.12);
     display: flex;
@@ -24,49 +24,46 @@
     padding: 12px 16px 12px 24px;
 }
 
-.lang_picker_selected {
+.lang{
     display: flex;
 }
 
-.lang_picker_unselected {
-    display: flex;
-}
-
-.lang_picker_us_flag {
+.lang-us-flag {
     height: 24px;
     margin: 0 16px 8px 0;
     width: 24px;
 }
 
-.lang_picker_language {
-    color: #2196f3;
+.lang-label {
+    color: rgba(0, 0, 0, 0.87);
     font-size: 15px;
-    font-stretch: normal;
-    font-style: normal;
     font-weight: 500;
-    letter-spacing: normal;
-    line-height: 1.33;
     margin: 0 19px 0 0;
 }
 
-.lang_picker_selection {
+.lang-checkmark {
+    visibility: hidden;
+}
+
+.lang--selected .lang-label {
+    color: #2196f3;
+}
+
+.lang--selected .lang-checkmark {
+    visibility: visible;
+}
+
+.lang-checkmark {
     height: 20px;
     width: 20px;
 }
 
-.lang_picker_spain_flag {
+.lang-spain-flag {
     height: 24px;
     margin: 0 16px 0 0;
     width: 24px;
 }
 
-.lang_picker--black {
-    color: #000000;
-    color: rgba(0, 0, 0, 0.87);
-}
 
-.lang_picker--black .lang_picker_language {
-    color: #000000;
-    color: rgba(0, 0, 0, 0.87);
-}
+
 
