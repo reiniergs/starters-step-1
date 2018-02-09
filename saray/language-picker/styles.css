@@ -26,6 +26,7 @@
 
 .lang{
     display: flex;
+    line-height: 1.53;
 }
 
 .lang-us-flag {
