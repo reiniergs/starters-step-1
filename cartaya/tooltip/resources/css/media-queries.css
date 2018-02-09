@@ -1,0 +1,87 @@
+@media (max-width: 600px) {
+   
+    
+    body {
+        align-items: center;
+        display: flex;
+        font-family: Helvetica, sans-serif;
+        height: 100vh;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    .tooltip-satarters-step-1--tooltip-container {
+        background-color: #ffffff;
+        border-radius: 4px;
+        box-shadow: 0 4px 8px 1px rgb(116, 116, 116);
+        box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.479);
+        height: 190px;
+        max-width: 960px;
+        position: relative;
+    }
+    
+    .tooltip-satarters-step-1--tooltip-container::before {
+        background-color: #ffffff;
+        bottom: -12px;
+        content: '';
+        height: 24px;
+        left: 100px;
+        position: absolute;
+        transform: rotate(45deg);
+        width: 24px;
+    }
+    
+    .tooltip-satarters-step-1--tooltip-container::after {
+        bottom: -12px;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.479);
+        content: '';
+        height: 24px;
+        left: 100px;
+        position: absolute;
+        transform: rotate(45deg);
+        width: 24px;
+        z-index: -1;
+    }
+    
+    .tooltip-satarters-step-1--title-bar {
+        background-color: #c23934;
+        border-radius: 4px 4px 0 0;
+        max-height: 28px;
+        max-width: 960px;
+        padding: 16px 24px;
+    }
+    
+    .tooltip-satarters-step-1--title-bar--tittle {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        margin: 0;
+        right: -16px;
+    }
+    
+    .tooltip-satarters-step-1--title-bar--icon {
+        height: 16px;
+        width: 16px;
+    }
+
+    .tooltip-satarters-step-1--title-bar--icon--close-left {
+        width: 24px;
+    }
+
+    .tooltip-satarters-step-1--tooltip-body {
+        border-radius: 0 0 4px 4px;
+        padding: 16px 24px;
+    }
+    
+    .tooltip-satarters-step-1--content {
+        color: rgb(102, 101, 101);
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 1.5;
+        margin: 0;
+        text-align: left;
+        height: 100px;
+        overflow: auto;
+    }   
+}
