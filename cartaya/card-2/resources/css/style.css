@@ -1,11 +1,90 @@
-.card-group_container {
-    
+@font-face {
+    font-family: 'Camphor-Light';
+    src: url('./../font/Camphor-W01-Light.eot?#iefix') format('embedded-opentype'),
+         url('./../font/Camphor-W01-Light.woff') format('woff'),
+         url('./../font/Camphor-W01-Light.ttf') format('truetype'),
+         url('./../font/CamphorW01-Light.svg#FontName') format('svg');
+}
+
+body {
+    margin: 0;
+}
+.card-group {
+    align-items: center;
+    background-color: #8898aa;
+    background-color: rgba(136, 152, 170, 0.1);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
 }
 
 .card {
-    width: 300px;
-	height: 226px;
-	border-radius: 4px;
-	background-color: #2196f3;
-	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.38);
+    border-radius: 4px;
+    box-shadow: 0 2px 8px 0 rgb(90, 90, 90);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.38);
+    min-height: 226px;
+    min-width: 300px;
+}
+
+.card_one {
+    background-color: #2196f3;
+    margin-right: 30px;
+}
+
+.card_two {
+    background-color: #fff;
+    margin-right: 30px;
+}
+
+.card_three {
+    background-color: #32373c;
+}
+
+.card_icon {
+    height: 64px;
+    width: 64px;
+}
+
+.card_icon-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+}
+
+.card_text {
+    font-family: 'Camphor-Light', 'Arial', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    margin: 0;
+text-align: center;
+}
+
+.card_text-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.card_text-one {
+    color: #ffffff;
+    font-size: 18px;
+    height: 44px;
+    margin-top: 22px;
+    width: 237px;
+}
+
+.card_text-two {
+    color: #2196f3;
+    font-size: 18px;
+    height: 44px;
+    margin-top: 22px;
+    width: 237px;
+}
+
+.card_text-three {
+    color: #ffffff;
+    font-size: 16px;
+    height: 36px;	
+    margin-top: 29px;
+    width: 236px;
 }
