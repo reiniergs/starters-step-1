@@ -23,6 +23,7 @@
 
 .sign-up-form {
     align-items: center;
+    background-color: #8898aa;
     background-color: rgba(136, 152, 170, 0.1);
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.45)), url("images/blur.png");
     background-position: 45% 40%;
@@ -72,9 +73,10 @@
 }
 
 .input {
+    background-color: #ffffff;
     background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 4px;
     border: none;
+    border-radius: 4px;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
     box-sizing: border-box;
     font-size: 16px;
@@ -89,9 +91,10 @@
 }
 
 .input:focus {
+    background-color: #ffffff;
     background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 4px;
     border: solid 1px #3ecf8e;
+    border-radius: 4px;
     box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.25);
     outline-width: 0;
 }
@@ -120,26 +123,23 @@
     letter-spacing: 0.5px;
     line-height: normal;
     margin-top: 32px;
-    outline: none;
     text-align: center;
     width: 363px;
 }
 
 .create-account-button:hover {
     background-color: #3ecf8e;
-    border-radius: 4px;
     border: none;
+    border-radius: 4px;
     color: #FFFFFF;
-    outline: none;
 }
 
-.create-account-button:active {
-    background-color: #3ecf8e;
-    border-radius: 4px;
-    border: none;
-    color: #FFFFFF;
-    outline: none;
+.create-account-button:focus {
+    opacity: 0.8;
+    outline: 0;
 }
+
+
 
 
 
