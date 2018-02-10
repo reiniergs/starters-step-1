@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g id="Form" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+         <path d="M10,10 C11.8416667,10 13.3333333,8.50833333 13.3333333,6.66666667 C13.3333333,4.825 11.8416667,3.33333333 10,3.33333333 C8.15833333,3.33333333 6.66666667,4.825 6.66666667,6.66666667 C6.66666667,8.50833333 8.15833333,10 10,10 Z M10,11.6666667 C7.775,11.6666667 3.33333333,12.7833333 3.33333333,15 L3.33333333,16.6666667 L16.6666667,16.6666667 L16.6666667,15 C16.6666667,12.7833333 12.225,11.6666667 10,11.6666667 Z" id="Shape" fill="#5C6870" fill-rule="nonzero"></path>
+         <g id="person">
+             <polygon id="Shape" points="0 0 20 0 20 20 0 20"></polygon>
+         </g>
+    </g>
+</svg>
