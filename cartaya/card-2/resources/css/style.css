@@ -28,18 +28,23 @@ body {
     width: 300px;
 }
 
-.card_one {
+.card:not(:last-child) {
+    margin-right: 30px;
+}
+
+.card--blue {
     background-color: #2196f3;
-    margin-right: 30px;
+    color: #fff;
 }
 
-.card_two {
+.card--white {
     background-color: #fff;
-    margin-right: 30px;
+    color: #2196f3;
 }
 
-.card_three {
+.card--black {
     background-color: #32373c;
+    color: #fff;
 }
 
 .card_icon {
@@ -49,32 +54,11 @@ body {
 
 .card_text {
     font-family: 'Camphor-Light', 'Arial', sans-serif;
+    font-size: 18px;
     font-weight: bold;
+    height: 44px;
     letter-spacing: 0.3px;
-    margin: 0;
+    margin: 22px 0 0 0;
     text-align: center;
-}
-
-.card_text-one {
-    color: #ffffff;
-    font-size: 18px;
-    height: 44px;
-    margin-top: 22px;
     width: 237px;
-}
-
-.card_text-two {
-    color: #2196f3;
-    font-size: 18px;
-    height: 44px;
-    margin-top: 22px;
-    width: 237px;
-}
-
-.card_text-three {
-    color: #ffffff;
-    font-size: 16px;
-    height: 36px;	
-    margin-top: 29px;
-    width: 236px;
 }
