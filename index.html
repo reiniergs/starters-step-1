@@ -3,56 +3,141 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Home Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="media-queries.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:200,300,400,100" rel="stylesheet">
+    <title>Code Challenge</title>
 </head>
-<body class="view-port">
-    <div class= "profile-cards-container">
-        <div class="profile-card">
-            <img class= "profile-card-img" src="./images/saray.jpg" alt="Profile Picture">
-            <h4 class="profile-card-name">saray pacheco</h4>
-            <a class="profile-card-email" href="mailto:sary2790@gmail.com">sary2790@gmail.com</a>
-            <div class="profile-card-project-list">
-                <h4 class="profile-card-projects-title">My work</h4>
-                <a class="profile-card-projects" href="saray/weather-card/index.html">Weather Card</a>
-                <a class="profile-card-projects" href="saray/tooltip/index.html">Tooltip</a>
-                <a class="profile-card-projects" href="saray/404-page/index.html">404 Page</a>
-                <a class="profile-card-projects" href="saray/cards-variant-1/index.html">Cards-Variant 1</a>
-                <a class="profile-card-projects" href="saray/cards-variant-2/index.html">Cards-Variant 2</a>
-            </div>
-        </div>
+<body class="code-challenge_view-port">
+    <header class="code-challenge_top-bar">
+        <img src="images/code_challenge_logo.svg" alt="Code Challenge logo">
+    </header>
 
-        <div class="profile-card">
-            <img class= "profile-card-img" src="./images/tahy.jpg" alt="Profile Picture">
-            <h4 class="profile-card-name">tahimi leon</h4>
-            <a class="profile-card-email" href="mailto:tahimileon@gmail.com">tahimileon@gmail.com</a>
-            <div class="profile-card-project-list">
-                <h4 class="profile-card-projects-title">My work</h4>
-                <a class="profile-card-projects" href="tahimilb/omnifood-page/index.html">Omnifood</a>
-                <a class="profile-card-projects" href="tahimilb/saved-credit-card/index.html">Saved Credit Card</a>
-                <a class="profile-card-projects" href="tahimilb/dashboard-hero/index.html">Dashboard Hero</a>
-                <a class="profile-card-projects" href="tahimilb/home-nauta/index.html">Home Nauta</a>
+    <section class="code-challenge_fold">
+        <div class="code-challenge_fold-content-container">
+            <div class="code-challenge_fold-content">
+                <h1 class="code-challenge_fold-content-title font-lato">
+                    If you want to learn, it’s the best place…
+                </h1>
+                <div class="code-challenge_fold-question-container">
+                    <h3 class="code-challenge_fold-question  font-lato">
+                        What do you want to do?
+                    </h3>
+                    <div class="code-challenge_fold-link-container font-lato">
+                        <a class="code-challenge_fold-link fold-link--green" href="#">see challenges</a>
+                        <a class="code-challenge_fold-link" href="#gamer-section">become a gamer</a>
+                    </div>
+                </div>
             </div>
+            <img class="code-challenge_fold-image" src="images/fold_graphic.svg" alt="Programer Image">
         </div>
-
-        <div class="profile-card">
-            <img class= "profile-card-img" src="./images/cartaya.jpg" alt="Profile Picture">
-            <h4 class="profile-card-name">carlos m. cartaya</h4>
-            <a class="profile-card-email" href="mailto:cmcartaya1@gmail.com">cmcartaya1@gmail.com</a>
-            <div class="profile-card-project-list">
-                <h4 class="profile-card-projects-title">My work</h4>
-                <a class="profile-card-projects" href="cartaya/click-me/ClickMe.html">Click Me</a>
-                <a class="profile-card-projects" href="cartaya/directory-profile/Directory Profile.html">Directory Profile</a>
-                <a class="profile-card-projects" href="cartaya/home-download/Home Download.html">Home Download</a>
-                <a class="profile-card-projects" href="cartaya/mastery-study-web-page/Mastery Study Home Page.html">Mastery Study Home Page</a>
-                <a class="profile-card-projects" href="cartaya/profile-page-intranet/Profile Page-Intranet.html">Intranet Profile Page</a>
-                <a class="profile-card-projects" href="cartaya/sing-in-form/form.html">Form</a>
-                <a class="profile-card-projects" href="cartaya/error-404/index.html">ERROR 404</a>
-                <a class="profile-card-projects" href="cartaya/card-1/index.html">Card 1</a>
+    </section>
+  
+    <section id="gamer-section" class="code-challenge_gamer-section">
+        <header class="gamer-section_header-container">
+            <img src="images/tags.svg" alt="Tags Icon">
+            <h2 class="gamer-section_header-title font-lato">
+                gamers
+            </h2>
+            <p class="gamer-section_header-description font-lato">
+                Like a gamer you can make all challenges that you want, and see the challenges of all gamers…
+            </p>
+            <div class="gamer-section_search-container">
+                <img class="gamer-section_search-icon" src="images/search.svg" alt="Search Icon">
+                <input class="gamer-section_input-search-element" type="text" placeholder="Find a gamer">
             </div>
-        </div>
-    </div>    
+        </header>
+        
+        <section class= "profile-cards-container">
+            <div class="profile-card">
+                <img class= "profile-card-img" src="images/sara.png" alt="Profile Picture">
+                <h4 class="profile-card-name">
+                    saray pacheco
+                </h4>
+                <a class="profile-card-email" href="mailto:sary2790@gmail.com">sary2790@gmail.com</a>
+                <div class="profile-card-project-list">
+                    <h4 class="profile-card-projects-title">
+                        Completed Challenge
+                        <span class="profile-card-projects-badge">10</span>
+                    </h4>
+                    <a class="profile-card-projects" href="saray/weather-card/index.html">Weather Card</a>
+                    <a class="profile-card-projects" href="saray/tooltip/index.html">Tooltip</a>
+                    <a class="profile-card-projects" href="saray/404-page/index.html">404 Page</a>
+                    <a class="profile-card-projects" href="saray/cards-variant-1/index.html">Cards-Variant 1</a>
+                    <a class="profile-card-projects" href="saray/cards-variant-2/index.html">Cards-Variant 2</a>
+                    <a class="profile-card-projects" href="saray/gift-banner/index.html">Gift Banner</a>
+                    <a class="profile-card-projects" href="saray/island-card/index.html">Island Card</a>
+                    <a class="profile-card-projects" href="saray/banner/index.html">Banner</a>
+                    <a class="profile-card-projects" href="saray/reviews-card/index.html">Review Card</a>
+                    <a class="profile-card-projects" href="saray/gift-banner/index.html">Gift Banner</a>
+                </div>
+                <div class="profile-card-collaboration-icons">
+                    <a class="profile-card-collaboration-icons-link" href="https://github.com/sarayp" target="_blank">
+                        <img class="profile-card-github-icon" src="images/github-big-logo.svg" alt="GitHub Icon">
+                    </a>
+                    <a class="profile-card-collaboration-icons-link" href="https://www.linkedin.com/in/saray-pacheco-73260ab6/" target="_blank">
+                        <img class="profile-card-linkedin-icon" src="images/linkedin-logo.svg" alt="LinkedIn Icon">
+                    </a>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img class= "profile-card-img" src="images/tahy.jpg" alt="Profile Picture">
+                <h4 class="profile-card-name">
+                    tahimi leon
+                </h4>
+                <a class="profile-card-email" href="mailto:tahimileon@gmail.com">tahimileon@gmail.com</a>
+                <div class="profile-card-project-list">
+                    <h4 class="profile-card-projects-title">
+                        Completed Challenge
+                        <span class="profile-card-projects-badge">4</span>
+                    </h4>
+                    <a class="profile-card-projects" href="tahimilb/omnifood-page/index.html">Omnifood</a>
+                    <a class="profile-card-projects" href="tahimilb/saved-credit-card/index.html">Saved Credit Card</a>
+                    <a class="profile-card-projects" href="tahimilb/dashboard-hero/index.html">Dashboard Hero</a>
+                    <a class="profile-card-projects" href="tahimilb/home-nauta/index.html">Home Nauta</a>
+                </div>
+                <div class="profile-card-collaboration-icons">
+                    <a class="profile-card-collaboration-icons-link" href="https://github.com/TahimiLeonBravo" target="_blank">
+                        <img class="profile-card-github-icon" src="images/github-big-logo.svg" alt="GitHub Icon">
+                    </a>
+                    <a class="profile-card-collaboration-icons-link" href="https://www.linkedin.com/in/tahim%C3%AD-le%C3%B3n-bravo-aa896312a/" target="_blank">
+                        <img class="profile-card-linkedin-icon" src="images/linkedin-logo.svg" alt="LinkedIn Icon">
+                    </a>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img class= "profile-card-img" src="images/cartaya.jpg" alt="Profile Picture">
+                <h4 class="profile-card-name">
+                    carlos m. cartaya
+                </h4>
+                <a class="profile-card-email" href="mailto:cmcartaya1@gmail.com">cmcartaya1@gmail.com</a>
+                <div class="profile-card-project-list">
+                    <h4 class="profile-card-projects-title">
+                        Completed Challenge
+                        <span class="profile-card-projects-badge">7</span>
+                    </h4>
+                    <a class="profile-card-projects" href="cartaya/click-me/ClickMe.html">Click Me</a>
+                    <a class="profile-card-projects" href="cartaya/directory-profile/Directory Profile.html">Directory Profile</a>
+                    <a class="profile-card-projects" href="cartaya/home-download/Home Download.html">Home Download</a>
+                    <a class="profile-card-projects" href="cartaya/mastery-study-web-page/Mastery Study Home Page.html">Mastery Study Home Page</a>
+                    <a class="profile-card-projects" href="cartaya/profile-page-intranet/Profile Page-Intranet.html">Intranet Profile Page</a>
+                    <a class="profile-card-projects" href="cartaya/sing-in-form/form.html">Form</a>
+                    <a class="profile-card-projects" href="cartaya/error-404/index.html">ERROR 404</a>
+                </div>
+                <div class="profile-card-collaboration-icons">
+                    <a class="profile-card-collaboration-icons-link" href="https://github.com/cmcartaya" target="_blank">
+                        <img class="profile-card-github-icon" src="images/github-big-logo.svg" alt="GitHub Icon">
+                    </a>
+                    <a class="profile-card-collaboration-icons-link" href="http://www.google.com" target="_blank">
+                        <img class="profile-card-linkedin-icon" src="images/linkedin-logo.svg" alt="LinkedIn Icon">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <footer class="gamer-section_footer-container">
+            <a class="gamer-section_footer-link font-lato" href="">Turn a gamer</a>
+        </footer>
+    </section>
 </body>
 </html>

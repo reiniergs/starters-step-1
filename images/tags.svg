@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="home-starters-step-1-completed-V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-13">
+            <g id="Group-19">
+                <rect id="shape" x="0" y="0" width="70" height="70"></rect>
+                <g id="open-tag-" transform="translate(4.833333, 20.416667)">
+                    <polygon id="Line-2" fill="#B8E986" points="22.6566508 0 0 12.366624 0 16.4212548 22.6566508 28.7878788 22.6566508 24.733248 3.66973922 14.3939394 22.6566508 4.05463082"></polygon>
+                    <polygon id="Line-3" fill-opacity="0.246490036" fill="#000000" points="0 16.4212548 7.39533787 16.4212548 3.66973922 14.3939394"></polygon>
+                </g>
+                <g id="close-tag-" transform="translate(53.666667, 34.916667) scale(-1, 1) translate(-53.666667, -34.916667) translate(42.166667, 20.416667)">
+                    <polygon id="Line-2" fill="#B8E986" points="22.6566508 0 0 12.366624 0 16.4212548 22.6566508 28.7878788 22.6566508 24.733248 3.66973922 14.3939394 22.6566508 4.05463082"></polygon>
+                    <polygon id="Line-3" fill-opacity="0.246490036" fill="#000000" points="0 16.4212548 7.39533787 16.4212548 3.66973922 14.3939394"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

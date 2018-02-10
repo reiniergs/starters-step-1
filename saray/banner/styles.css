@@ -1,0 +1,57 @@
+
+@font-face {
+    src: url('./font/Camphor-W01-Light.eot?#iefix') format('embedded-opentype'),
+    url('./font/Camphor-W01-Light.woff') format('woff'),
+    url('./font/Camphor-W01-Light.ttf') format('truetype'),
+    url('./font/CamphorW01-Light.svg#FontName') format('svg');
+}
+
+.view-port {
+    margin: 0;
+}
+
+.container {
+    align-items: center;
+    background-color: rgba(136, 152, 170, 0.1); /* csslint allow: fallback-colors */
+    color: #8898aa;
+    display: flex;
+    font-family: 'Camphor-Light', 'Arial', sans-serif;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+}
+
+.banner {
+    background-size: cover;
+    background:  linear-gradient(rgba(0, 10, 25, 0.21), rgba(2, 51, 94, 0.56)), url("icons/image.svg");
+    border-radius: 4px;
+    box-sizing: border-box; /* csslint allow: box-sizing */
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    justify-content: space-between;
+    margin: 20px;
+    max-width: 710px;
+    padding: 22px;
+}
+
+.banner-text {
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.banner-icons {
+    display: flex;
+}
+
+.icons {
+    height: 24px;
+    width: 24px;
+}
+
+.icons:not(:last-child) {
+    margin-right:  24px;
+}
+
