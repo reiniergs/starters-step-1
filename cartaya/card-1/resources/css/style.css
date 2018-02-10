@@ -7,19 +7,19 @@
 
 .card-1_container {
     border-radius: 3px;
-	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
     max-height: 525px;
     max-width: 600px;
 }
 
-.card-1_img-on-top--container {
+.card-1_imgage-container {
     background-image: url("./../img/island.svg");
     background-size: cover;
     height: 250px;
     width: 600px;
 } 
 
-.card-1_text-area--container {
+.card-1_text-area-container {
     font-family: Arial, Helvetica, sans-serif;
     max-height: 275px;
     max-width: 600px;
@@ -29,7 +29,7 @@
 .card-1_title {
     color: #32373c;
     font-size: 32px;
-	font-weight: bold;
+    font-weight: bold;
     margin: 32px 0 0 0;
 }
 
@@ -37,31 +37,31 @@
     color: #000;
     color: rgba(0, 0, 0, 0.38);
     font-size: 20px;
-	line-height: 1.5;
+    line-height: 1.5;
     margin: 16px 0 0 0;
-	text-align: left;
+    text-align: left;
 }
 
-.card-1_button--container {
+.card-1_button-container {
     display: flex;
     justify-content: flex-end;
     margin: 32px 0 0 0;
 }
 
 .card-1_button {
-	background-color: #ffffff;
+    background-color: #ffffff;
     border: solid 1px rgb(33, 150, 243);
     border: solid 1px rgba(33, 150, 243, 0.15);
     border-radius: 4px;
-	color: #2196f3;
+    color: #2196f3;
     font-size: 16px;
-	min-height: 40px;
-	min-width: 150px;
-	text-align: center;
+    min-height: 40px;
+    min-width: 150px;
+    text-align: center;
     transition: background-color .3s;
 }
 
-.card-1_button, .card-1_button--container:focus {
+.card-1_button, .card-1_button-container:focus {
     background-color: rgb(33, 150, 243);
     background-color: rgba(33, 150, 243, 0.15);
 }
