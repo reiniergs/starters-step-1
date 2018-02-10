@@ -43,41 +43,41 @@ body {
 .tooltip_title-bar {
     align-items: center;
     background-color: #c23934;
-	border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
     display: flex;
     max-height: 56px;
     max-width: 960px;
     padding: 16px 24px;
 }
 
-.tooltip_title-bar--tittle {
+.tooltip_title-bar-tittle {
     color: #ffffff;
     font-size: 20px;
-	font-weight: 300;
+    font-weight: 300;
     margin: 0;
     position: relative;
     right: -16px;
     width: 100%;
 }
 
-.tooltip_title-bar--icon {
-	height: 24px;
+.tooltip_title-bar-icon {
+    height: 24px;
     width: 24px;
 }
 
-.tooltip_message--container {
+.tooltip_message-container {
     border-radius: 0 0 4px 4px;
     padding: 16px 24px;
 }
 
-.tooltip_message--content {
+.tooltip_message-content {
     color: rgb(102, 101, 101);
     color: rgba(0, 0, 0, 0.87);
     font-size: 16px;
-	font-weight: 300;
-	line-height: 1.5;
-    margin: 0;
-    text-align: left;
+    font-weight: 300;
     height: 100px;
+    line-height: 1.5;
+    margin: 0;
     overflow: auto;
+    text-align: left;
 }
