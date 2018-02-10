@@ -1,0 +1,147 @@
+@font-face {
+    src: url('/font/camphor-w01-light/camphor-w01-light.eot?#iefix') format('embedded-opentype'),
+    url('//font/camphor-w01-light/camphor-w01-light.woff') format('woff'),
+    url('//font/camphor-w01-light/camphor-w01-light.ttf') format('truetype'),
+    url('//font/camphor-w01-light/camphor-w01-light.svg#FontName') format('svg');
+}
+
+.view-port {
+    margin: 0;
+}
+
+.camphor {
+    font-family: Camphor-Light, sans-serif;
+}
+
+.container {
+    align-items: center;
+    background-color: #31363b;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.sign-up-form {
+    align-items: center;
+    background-color: rgba(136, 152, 170, 0.1);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.45)), url("images/blur.png");
+    background-position: 45% 40%;
+    background-size: 115%;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 56px;
+    width: 480px;
+}
+
+.heading {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: lighter;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0 0 34px 0;
+    text-align: center;
+    width: 395px;
+}
+
+.input-container {
+    margin-bottom: 16px;
+}
+
+.input-label {
+    color: #ffffff;
+    display: block;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: lighter;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 8px;
+    text-align: left;
+    width: 37px;
+}
+
+.input-fill {
+    position: relative;
+}
+
+.input {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    height: 40px;
+    letter-spacing: normal;
+    line-height: 1.25;
+    padding: 0 49px;
+    text-align: left;
+    width: 363px;
+}
+
+.input:focus {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    border: solid 1px #3ecf8e;
+    box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.25);
+    outline-width: 0;
+}
+
+.icon-left {
+    left: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+.icon-right {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+
+.create-account-button {
+    background-color: #ffffff;
+    border-radius: 2px;
+    color: #3ecf8e;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    height: 36px;
+    letter-spacing: 0.5px;
+    line-height: normal;
+    margin-top: 32px;
+    outline: none;
+    text-align: center;
+    width: 363px;
+}
+
+.create-account-button:hover {
+    background-color: #3ecf8e;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.create-account-button:active {
+    background-color: #3ecf8e;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    outline: none;
+}
+
+
+
+
+
