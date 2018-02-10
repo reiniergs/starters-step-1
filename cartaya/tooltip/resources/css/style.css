@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 
-.tooltip-satarters-step-1--tooltip-container {
+.tooltip {
     background-color: #ffffff;
     border-radius: 4px;
     box-shadow: 0 4px 8px 1px rgb(116, 116, 116);
@@ -17,7 +17,7 @@ body {
     position: relative;
 }
 
-.tooltip-satarters-step-1--tooltip-container::before {
+.tooltip::before {
     background-color: #ffffff;
     bottom: -12px;
     content: '';
@@ -28,7 +28,7 @@ body {
     width: 24px;
 }
 
-.tooltip-satarters-step-1--tooltip-container::after {
+.tooltip::after {
     bottom: -12px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.479);
     content: '';
@@ -40,7 +40,7 @@ body {
     z-index: -1;
 }
 
-.tooltip-satarters-step-1--title-bar {
+.tooltip_title-bar {
     align-items: center;
     background-color: #c23934;
 	border-radius: 4px 4px 0 0;
@@ -50,7 +50,7 @@ body {
     padding: 16px 24px;
 }
 
-.tooltip-satarters-step-1--title-bar--tittle {
+.tooltip_title-bar--tittle {
     color: #ffffff;
     font-size: 20px;
 	font-weight: 300;
@@ -60,17 +60,17 @@ body {
     width: 100%;
 }
 
-.tooltip-satarters-step-1--title-bar--icon {
+.tooltip_title-bar--icon {
 	height: 24px;
     width: 24px;
 }
 
-.tooltip-satarters-step-1--tooltip-body {
+.tooltip_message--container {
     border-radius: 0 0 4px 4px;
     padding: 16px 24px;
 }
 
-.tooltip-satarters-step-1--content {
+.tooltip_message--content {
     color: rgb(102, 101, 101);
     color: rgba(0, 0, 0, 0.87);
     font-size: 16px;
