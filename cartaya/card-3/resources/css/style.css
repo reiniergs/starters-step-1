@@ -15,40 +15,43 @@ body {
     margin: 0;
 }
 
-.card-3 {
-    align-items: center;
-    border-radius: 4px;
-    display: flex;
-    flex-flow: column;
+.camphor-font {
     font-family: 'Camphor-Light', 'Arial', sans-serif;
-    height: 226px;
-    justify-content: center;
-    width: 300px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    text-align: center;
 }
 
-.card-3_icon {
+.card {
+    align-items: center;
+    border-radius: 4px;
+    color: rgb(41, 41, 41);
+    color: rgba(0, 0, 0, 0.54);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    max-width: 236px;
+    min-height: 130px;
+    padding: 48px 32px;
+}
+
+.card:not(:last-child) {
+    margin-right: 30px;
+}
+
+.card_icon {
     height: 64px;
     width: 64px;
 }
 
-.card-3_title {
+.card_title {
 	color: rgb(50, 55, 60);
-	font-size: 20px;
-	font-weight: 900;
-	height: 24px;
-	letter-spacing: 0.3px;
-	text-align: center;
-    width: 237px;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 0.3px;
 }
 
-.card-3_text {
-    color: rgb(41, 41, 41);
-    color: rgba(0, 0, 0, 0.54);
-    font-size: 16px;
-    font-weight: 500;
-    height: 38px;
-    letter-spacing: 0.2px;
+.card_text {
     margin: 0;
-    text-align: center;
-    width: 237px;
 }
