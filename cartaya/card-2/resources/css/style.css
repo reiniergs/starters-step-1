@@ -18,14 +18,17 @@ body {
 
 .card {
     align-items: center;
+    background-color: #32373c;
     border-radius: 4px;
     box-shadow: 0 2px 8px 0 rgb(90, 90, 90);
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.38);
+    color: #fff;
     display: flex;
     flex-flow: column;
-    height: 226px;
     justify-content: center;
-    width: 300px;
+    max-width: 236px;
+    min-height: 130px;
+    padding: 48px 32px;
 }
 
 .card:not(:last-child) {
@@ -42,23 +45,19 @@ body {
     color: #2196f3;
 }
 
-.card--black {
-    background-color: #32373c;
-    color: #fff;
-}
-
 .card_icon {
     height: 64px;
     width: 64px;
 }
 
 .card_text {
-    font-family: 'Camphor-Light', 'Arial', sans-serif;
     font-size: 18px;
-    font-weight: bold;
-    height: 44px;
-    letter-spacing: 0.3px;
     margin: 22px 0 0 0;
     text-align: center;
-    width: 237px;
+}
+
+.camphor-font {
+    font-family: 'Camphor-Light', 'Arial', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.3px;
 }
