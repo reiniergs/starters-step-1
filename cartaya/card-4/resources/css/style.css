@@ -19,7 +19,6 @@ body {
     font-family: 'Camphor-Light', 'Arial', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    margin: 0;
 }
 
 .card {
@@ -51,18 +50,17 @@ body {
     font-size: 32px;
     font-weight: 300;
     line-height: 1.25;
+    margin: 0;
 }
 
 .card_text {
     color: rgb(46, 46, 46);
     color: rgba(0, 0, 0, 0.38);
-    display: inline;
 }
 
 .card_text--black {
     color: rgb(28, 28, 28);
     color: rgba(0, 0, 0, 0.54);
-    display: inline;
     font-weight: 900;
 }
 
