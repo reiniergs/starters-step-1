@@ -36,13 +36,16 @@ body {
     max-width: 646px;
     min-height: 129px;
     padding: 24px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .notifier_title-container {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding-left: 120px;
+    margin-bottom: 8px;
 }
 
 .notifier_title {
