@@ -26,6 +26,7 @@ body {
     position: absolute;
     transform: rotate(45deg);
     width: 24px;
+    border-radius: 4px 0;
 }
 
 .tooltip::after {
@@ -38,6 +39,7 @@ body {
     transform: rotate(45deg);
     width: 24px;
     z-index: -1;
+    border-radius: 4px 0;
 }
 
 .tooltip_title-bar {
