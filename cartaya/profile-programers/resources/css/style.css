@@ -1,7 +1,9 @@
 @font-face {
-    font-family: 'Lato-Regular';
-    src: url('./../font/Lato-Regular.eot?#iefix') format('embedded-opentype'),
-         url('./../font/Lato-Regular.ttf') format('truetype'),
+    font-family: 'Lato-Light';
+    src: url('./../font/Lato-Light.eot?#iefix') format('embedded-opentype'),
+         url('./../font/Lato-Light.woff') format('woff'),
+         url('./../font/Lato-Light.ttf') format('truetype'),
+         url('./../font/Lato-Light.svg#FontName') format('svg');
 }
 
 body {
@@ -15,9 +17,8 @@ body {
 
 .lato-font {
     color: #fff;
-    font-family: 'Lato-Regular', Helvetica, sans-serif;
+    font-family: 'Lato-Light', Helvetica, sans-serif;
     font-size: 14px;
-    font-weight: 300;
     margin: 0;
     text-align: center;
 }
