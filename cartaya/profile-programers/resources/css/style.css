@@ -39,8 +39,6 @@ body {
 }
 
 .programmer-profile_picture {
-    background-image: url('./../images/sara.png');
-    background-size: cover;
     border-radius: 2px 2px 0 0;
     height: 180px;
     width: 260px;
