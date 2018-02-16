@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Camphor-Thin';
+    src: url('./../font/Camphor-W01-Thin.eot?#iefix') format('embedded-opentype'),
+         url('./../font/Camphor-W01-Thin.woff') format('woff'),
+         url('./../font/Camphor-W01-Thin.ttf') format('truetype'),
+         url('./../font/CamphorW01-Thin.svg#FontName') format('svg');
+}
+
+body {
+    align-items: center;
+    background-color: rgb(231, 234, 238);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+}
+
+.camphor-font {
+    color: #ffffff;
+    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.54);
+    font-family: 'Camphor-Thin', 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    line-height: 1.38;
+    margin: 0;
+    text-align: left;
+}
+
+.notifier {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgb(95, 94, 94);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    max-width: 646px;
+    min-height: 129px;
+    padding: 24px 32px;
+}
+
+.notifier_title-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.notifier_title {
+    color: #32373c;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.27;
+}
+
+.notifier_title-yelow {
+    color: #f5ba3d;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.0;
+}
+
+.notifier_icon {
+    height: 64px;
+    margin-right: 24px;
+    width: 64px;
+}
+
+.notifier_text-container {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}

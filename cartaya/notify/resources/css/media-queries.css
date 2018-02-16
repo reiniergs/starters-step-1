@@ -1,0 +1,10 @@
+@media (max-width: 600px) {
+    .notifier {
+        flex-direction: column;
+        margin: 0 16px;
+    }
+
+    .notifier_icon {
+        margin-bottom: 24px;
+    }
+}

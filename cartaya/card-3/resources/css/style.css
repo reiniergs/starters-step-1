@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Camphor-Light';
+    src: url('./../font/Camphor-W01-Light.eot?#iefix') format('embedded-opentype'),
+         url('./../font/Camphor-W01-Light.woff') format('woff'),
+         url('./../font/Camphor-W01-Light.ttf') format('truetype'),
+         url('./../font/CamphorW01-Light.svg#FontName') format('svg');
+}
+
+body {
+    align-items: center;
+    background-color: rgb(231, 234, 238);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+}
+
+.camphor-font {
+    font-family: 'Camphor-Light', 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.card {
+    align-items: center;
+    border-radius: 4px;
+    color: rgb(41, 41, 41);
+    color: rgba(0, 0, 0, 0.54);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 236px;
+    min-height: 130px;
+    padding: 48px 32px;
+}
+
+.card:not(:last-child) {
+    margin-right: 30px;
+}
+
+.card_icon {
+    height: 64px;
+    width: 64px;
+}
+
+.card_title {
+	color: rgb(50, 55, 60);
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 0.3px;
+}
+
+.card_text {
+    margin: 0;
+}
