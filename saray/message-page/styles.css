@@ -1,0 +1,77 @@
+.view-port {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.font-lato {
+    font-family: 'Lato', 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lato', 'Arial', sans-serif;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 960px;
+}
+
+.graphic {
+    margin-right: 97px;
+}
+
+.message-title {
+    color: #32373c;
+    font-size: 36px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: normal;
+    line-height: 1.33;
+    margin: 0;
+    text-align: left;
+}
+
+.message-description {
+    color: #7b7b7b;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 1.38;
+    margin: 20px 0;
+    text-align: left;
+}
+
+
+.link {
+    color: #2196f3;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.like {
+    display: flex;
+}
+
+.like-icon {
+    margin-right: 11px;
+    width: 20px;
+}
+
+.like-text {
+    color: #32373c;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: normal;
+    line-height: 1.25;
+    text-align: left;
+}
