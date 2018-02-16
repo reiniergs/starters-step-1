@@ -61,7 +61,7 @@ body {
 }
 
 .programer-profile_mail {
-    text-decoration-line: none;
+    text-decoration: transparent; 
 }
 
 .programer-profile_complited-challenge-container {
