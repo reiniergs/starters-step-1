@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('./../font/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./../font/Lato-Regular.ttf') format('truetype'),
+}
+
+body {
+    align-items: center;
+    background-color: rgb(231, 234, 238);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+}
+
+.lato-font {
+    color: #fff;
+    font-family: 'Lato-Regular', Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+}
+
+.color-font {
+    color: #b8e986;
+}
+
+.programer-profile {
+    background-color: #181818;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(172, 172, 172);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+    width: 260px;
+}
+
+.programer-profile:not(:last-child) {
+    margin-right: 30px;
+}
+
+.programmer-profile_picture {
+    background-image: url('./../images/sara.png');
+    background-size: cover;
+    border-radius: 2px 2px 0 0;
+    height: 180px;
+    width: 260px;
+}
+
+.programer-profile_info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px 16px;
+}
+
+.programer-profile_name {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 24px 0 4px 0;
+    text-transform: uppercase;
+}
+
+.programer-profile_mail {
+    text-decoration-line: none;
+}
+
+.lalala {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 24px 0 16px 0;
+}
+
+.programer-profile_badge {
+    align-items: center;
+    background-color: #b8e986;
+    border-radius: 100%;
+    color: #181818;
+    display: flex;
+    font-size: 12px;
+    font-weight: 900;
+    height: 20px;
+    justify-content: center;
+    margin-left: 6px;
+    width: 20px;
+}
+
+.programer-profile_completed-challenge-link-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.programer-profile_completed-challenge-link:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.programer-profile_social-media-link-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.programer-profile_social-media-link {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 20px;
+    padding: 0;
+    width: 20px;
+}
+
+.programer-profile_social-media-link:not(:last-child) {
+    margin-right: 16px;
+}

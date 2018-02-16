@@ -19,6 +19,7 @@ body {
 
 .tooltip::before {
     background-color: #ffffff;
+    border-radius: 4px 0;
     bottom: -12px;
     content: '';
     height: 24px;
@@ -26,10 +27,10 @@ body {
     position: absolute;
     transform: rotate(45deg);
     width: 24px;
-    border-radius: 4px 0;
 }
 
 .tooltip::after {
+    border-radius: 4px 0;
     bottom: -12px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.479);
     content: '';
@@ -39,7 +40,6 @@ body {
     transform: rotate(45deg);
     width: 24px;
     z-index: -1;
-    border-radius: 4px 0;
 }
 
 .tooltip_title-bar {
