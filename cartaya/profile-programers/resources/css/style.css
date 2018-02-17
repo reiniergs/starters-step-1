@@ -15,11 +15,14 @@ body {
     margin: 0;
 }
 
+p {
+    margin: 0;
+}
+
 .lato-font {
     color: #fff;
     font-family: 'Lato-Light', Helvetica, sans-serif;
     font-size: 14px;
-    margin: 0;
     text-align: center;
 }
 
@@ -61,7 +64,7 @@ body {
 }
 
 .programer-profile_mail {
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .programer-profile_complited-challenge-container {
