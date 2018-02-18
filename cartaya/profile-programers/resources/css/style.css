@@ -15,15 +15,8 @@ body {
     margin: 0;
 }
 
-p {
-    margin: 0;
-}
-
 .lato-font {
-    color: #fff;
     font-family: 'Lato-Light', Helvetica, sans-serif;
-    font-size: 14px;
-    text-align: center;
 }
 
 .color-font {
@@ -64,6 +57,10 @@ p {
 }
 
 .programer-profile_mail {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
     text-decoration: none;
 }
 
@@ -72,6 +69,10 @@ p {
     display: flex;
     justify-content: center;
     margin: 24px 0 16px 0;
+}
+
+.title-completed-challenge {
+    margin: 0;
 }
 
 .programer-profile_badge {
@@ -92,6 +93,12 @@ p {
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+
+.programer-profile_completed-challenge-link {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
 }
 
 .programer-profile_completed-challenge-link:not(:last-child) {
