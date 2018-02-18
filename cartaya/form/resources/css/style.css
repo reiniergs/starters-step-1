@@ -21,9 +21,9 @@
 }
 
 .form_background {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('./../img/graphic.svg');
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('./../img/graphic.svg');
     border-radius: 4px;
-    filter: blur(2px);
+    filter: blur(4px);
     height: 480px;
     width: 480px;
 }
