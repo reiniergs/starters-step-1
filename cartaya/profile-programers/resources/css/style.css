@@ -19,10 +19,6 @@ body {
     font-family: 'Lato-Light', Helvetica, sans-serif;
 }
 
-.color-font {
-    color: #b8e986;
-}
-
 .programer-profile {
     background-color: #181818;
     border-radius: 2px;
@@ -50,6 +46,7 @@ body {
 }
 
 .programer-profile_name {
+    color: #b8e986;
     font-size: 18px;
     font-weight: 500;
     margin: 24px 0 4px 0;
@@ -72,6 +69,7 @@ body {
 }
 
 .title-completed-challenge {
+    color: #b8e986;
     margin: 0;
 }
 
