@@ -6,6 +6,10 @@
          url('./../font/CamphorW01-Thin.svg#FontName') format('svg');
 }
 
+body {
+    margin: 0;
+}
+
 .view-port {
     align-items: center;
     background-color: rgb(49, 54, 59);
@@ -30,9 +34,10 @@
 
 .form_container {
     align-items: center;
+    box-sizing: border-box; /* csslint allow: box-sizing */
     display: flex;
     flex-direction: column;
-    min-width: 368px;
+    min-width: 480px;
     padding: 48px 56px;
     position: absolute;
 }
@@ -64,6 +69,7 @@
     box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.25);
     box-sizing: border-box; /* csslint allow: box-sizing */
     cursor: text;
+    font-size: 20px;
     height: 40px;
     padding: 0 0 0 44px;
     width: 100%;

@@ -1,29 +1,13 @@
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     
     .form_background {
         background-position: center;
-        width: 375px;
+        min-width: 100%;
     }
     
     .form_container {
-        min-width: 342px;
-        padding: 24px 28px;
-    }
-
-}
-
-@media (max-width: 375px) {
-    
-    .form_background {
-        background-position: center;
-        height: 480px;
-        width: 315px;
-    }
-    
-    .form_container {
-        max-height: 400px;
-        min-width: 282px;
-        padding: 24px 28px;
+        min-width: 100%;
+        padding: 48px 16px;
     }
 
 }
