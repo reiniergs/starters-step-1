@@ -55,6 +55,7 @@
     border-color: #2196f3;
     border-color: rgba(33, 150, 243, 0.15);
     border-radius: 4px;
+    box-sizing: border-box;
     color: #2196f3;
     font-size: 16px;
     height: 40px;
