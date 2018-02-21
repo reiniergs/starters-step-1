@@ -1,0 +1,13 @@
+@media (max-width: 600px) {
+    
+    .form_background {
+        background-position: center;
+        min-width: 100%;
+    }
+    
+    .form_container {
+        min-width: 100%;
+        padding: 48px 16px;
+    }
+
+}
