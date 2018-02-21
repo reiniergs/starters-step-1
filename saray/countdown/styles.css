@@ -1,0 +1,222 @@
+.view-port {
+    margin: 0;
+}
+
+.container {
+    align-items: center;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.70)), url("images/group-3-group-95-mask.svg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.nav-bar {
+    align-items: center;
+    background-color: #ffffff;
+    background-color:  rgba(255, 255, 255, 0.4);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.66);
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    margin-bottom: 57px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.info-text-container {
+    text-align: center;
+}
+
+.info-text-1 {
+    color: #ffffff;
+    font-family: Lato, Arial, sans-serif;
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0 0 4px 0;
+    text-align: center;
+}
+
+.info-text-2 {
+    color: #84ba3f;
+    font-family: Lato, Arial, sans-serif;
+    font-size: 30px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0 0 16px 0;
+    text-align: center;
+}
+
+.info-text-3 {
+    color: #ffffff;
+    font-family: Lato, Arial, sans-serif;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0 0 32px 0;
+    max-width: 600px;
+    text-align: center;
+}
+
+.countdown-circle {
+    display: flex;
+}
+
+.circle {
+    align-items: center;
+    border: #FFFFFF;
+    border: solid 5px rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+    margin-bottom: 49px;
+    width: 100px;
+}
+
+.circle:not(:last-child) {
+    margin-right: 69px;
+}
+
+.circle-text-1 {
+    color: #84ba3f;
+    font-family: Lato, Arial, sans-serif;
+    font-size: 32px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: normal;
+    line-height: 1.13;
+    text-align: center;
+}
+
+.circle-text-2 {
+    color: #ffffff;
+    font-family: Lato, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+.input-label {
+    color: #ffffff;
+    display: flex;
+    font-family: Lato, Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    justify-content: center;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.input-fill {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input {
+    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 0 59px;
+    width: 450px;
+}
+
+.input:focus {
+    border: 1px solid #84ba3f;
+    border-radius: 20px;
+    box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.25);
+    outline-width: 0;
+}
+
+.input::placeholder {
+    color: #ffffff;
+    font-family: Lato, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: normal;
+    line-height: 1.25;
+    text-align: left;
+}
+
+.input[type=email] {
+    color: #ffffff;
+    font-family: Lato, Arial, sans-serif;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: normal;
+    line-height: 1.25;
+    text-align: left;
+}
+
+.input:invalid:not(:focus) {
+    border: 2px solid red;
+}
+
+.icon-left {
+    left: 23px;
+    position: absolute;
+    top: 15px;
+    width: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button {
+    background-color: #84ba3f;
+    border: none;
+    border-radius: 18px;
+    color: #ffffff;
+    font-family: Lato, Arial, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    padding: 0 16px 0 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.submit-button:focus {
+    opacity: 0.8;
+    outline: 0;
+}
+
+.submit-button:hover {
+    background-color: #7FB33C;
+}
