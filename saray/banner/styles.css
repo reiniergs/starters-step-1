@@ -22,8 +22,8 @@
 }
 
 .banner {
-    background-size: cover;
     background:  linear-gradient(rgba(0, 10, 25, 0.21), rgba(2, 51, 94, 0.56)), url("icons/image.svg");
+    background-size: cover;
     border-radius: 4px;
     box-sizing: border-box; /* csslint allow: box-sizing */
     display: flex;
