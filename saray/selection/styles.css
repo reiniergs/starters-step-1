@@ -1,0 +1,104 @@
+.view-port {
+    margin: 0;
+}
+
+.font-lato {
+    font-family: 'Lato', 'Arial', sans-serif;
+}
+
+.container {
+    align-items: center;
+    background: url("icons/2060.svg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 36px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 48px;
+    text-align: left;
+}
+
+.selections {
+    list-style: none;
+    padding: 0;
+}
+
+.selections-fill:hover {
+    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.31);
+    cursor: pointer;
+}
+
+.circle {
+    margin-right: 16px;
+}
+
+.selections-fill {
+    align-items: center;
+    border: solid 1px #ffffff;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin-bottom: 24px;
+    padding: 0 15px;
+    width: 320px;
+}
+
+.text-left {
+    color: #ffffff;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.text-right {
+    color: #ffffff;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-left: auto;
+}
+
+.selections-button {
+    background-color: #ffffff;
+    border: solid 1px #ffffff;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 40px;
+    width: 320px;
+}
+
+.selections-button:hover {
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+.button-text {
+    color: #01adff;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0;
+    text-transform: uppercase;
+}
