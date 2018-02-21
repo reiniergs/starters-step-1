@@ -81,6 +81,7 @@
     background-color: #ffffff;
     border: solid 1px #ffffff;
     border-radius: 20px;
+    box-sizing: border-box;
     height: 40px;
     width: 320px;
 }
