@@ -1,0 +1,65 @@
+@media (max-width: 1024px) {
+    .ponlaya-topup-steps_container {
+        margin: 48px;
+        max-width: 960px;
+        padding: 48px;
+    }
+
+    .pannel {
+        max-width: 664px;
+        padding: 20px 24px 0 24px;
+    }
+   
+}
+
+@media (max-width: 700px) {
+    .ponlaya-topup-steps_container {
+        margin: 0;
+        padding: 16px;
+        width: 100%;
+    }
+
+    ponlaya-topup-steps_header {
+        margin-bottom: 24px;
+        width: 100%;
+    }
+   
+    .ponlaya-topup-steps_title {
+        font-size: 24px;
+    }
+    
+    .ponlaya-topup-steps_sutitle {
+        font-size: 18px;
+    }
+
+    .pannel {
+        align-items: center;
+        flex-direction: column;
+        padding: 16px 16px 0 16px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .pannel_image {
+        align-self: center;
+        margin-bottom: 16px;
+        width: 150px;
+    }
+
+    .pannel_text-container {
+        margin-left: 0;
+    }
+
+    .pannel_title {
+        margin: 0 0 8px 0;
+    }
+
+    .pannel_divider {
+        margin: 8px auto;
+    }
+
+    .ponlaya-topup-steps_button {
+        margin-top: 0;
+        width: 100%;
+    }
+}

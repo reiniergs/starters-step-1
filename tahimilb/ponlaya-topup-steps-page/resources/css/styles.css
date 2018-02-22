@@ -1,0 +1,128 @@
+.ponlaya-topup-steps_view-port {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 48px 0;
+}
+
+.font-lato {
+    font-family: 'lato', 'Arial';
+    font-weight: 300;
+}
+
+.ponlaya-topup-steps_container {
+    align-items: center;
+    background-color: #f3f4f6;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    box-sizing: border-box; /* csslint allow: box-sizing */
+    display: flex;
+    flex-direction: column;
+    padding: 48px 0;
+    width: 960px;
+}
+
+.ponlaya-topup-steps_header {
+    margin-bottom: 32px;
+    margin-top: 0;
+    max-width: 664px;
+    text-align: center;
+}
+
+.ponlaya-topup-steps_title {
+    color: #2196f3;
+    font-size: 32px;
+    margin: 0 0 12px 0;
+}
+
+.ponlaya-topup-steps_sutitle {
+    color: #212121;
+    font-size: 20px;
+    margin: 0;
+}
+
+.pannel {
+    background-color: #fff;
+    box-shadow: -1px 1px 2px -1px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box; /* csslint allow: box-sizing */
+    display: flex;
+    margin-bottom: 16px;
+    padding: 20px 24px 0 24px;
+    text-align: start;
+    width: 664px;
+}
+
+.pannel--inverse {
+    flex-direction: row-reverse;
+}
+
+.pannel_image {
+    align-self: flex-end
+}
+
+.pannel_text-container {
+    margin-left: 44px;
+    padding-bottom: 16px;
+}
+
+.pannel_title {
+    color: #bcbcbc;
+    font-size: 14px;
+    margin: 4px 0 12px 0;
+}
+
+.pannel_subtitle {
+    color: #2196f3;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+.pannel_divider {
+    border-color: #D9D9D9;
+    border-style: solid;
+    border-width: 0.5px;
+    margin: 16px 0;
+    width: 50%;
+}
+
+.pannel_description {
+    color: #212121;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.ponlaya-topup-steps_button {
+    background-color: #2196f3;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    margin-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-transform: uppercase;
+}
+
+.ponlaya-topup-steps_button:hover {
+    background-color: #59AEF2;
+    background-color: rgba(33, 150, 243, 0.70);
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.15);
+    transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+.ponlaya-topup-steps_button:active {
+    background-color: #59AEF2;
+    background-color: rgba(33, 150, 243, 0.70);
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.25);
+    transition: all 250ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
