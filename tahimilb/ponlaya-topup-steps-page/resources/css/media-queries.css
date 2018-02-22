@@ -9,11 +9,11 @@
         max-width: 664px;
         padding: 20px 24px 0 24px;
     }
-   
 }
 
 @media (max-width: 700px) {
     .ponlaya-topup-steps_container {
+        box-sizing: border-box; /* csslint allow: box-sizing */
         margin: 0;
         padding: 16px;
         width: 100%;
@@ -34,6 +34,7 @@
 
     .pannel {
         align-items: center;
+        box-sizing: border-box; /* csslint allow: box-sizing */
         flex-direction: column;
         padding: 16px 16px 0 16px;
         text-align: center;
