@@ -14,7 +14,7 @@
 }
 
 .lato-font {
-    font-family: 'Camphor-Thin', 'Arial', sans-serif;
+    font-family: 'Lato-Regular', 'Arial', sans-serif;
     font-weight: 500;
 }
 
@@ -36,18 +36,18 @@
 }
 
 .message_title {
-	color: #32373c;
-	font-size: 36px;
-	font-weight: 900;
-	line-height: 1.33;
+    color: #32373c;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.33;
     margin: 0;
     text-align: left;
 }
 
 .message_text {
-	color: #7b7b7b;
-	font-size: 16px;
-	line-height: 1.38;
+    color: #7b7b7b;
+    font-size: 16px;
+    line-height: 1.38;
     margin: 20px 0 0 0;
     text-align: left;
 }
@@ -56,19 +56,19 @@
     color: #2196f3;
 }
 
-.message_fotter {
+.message_footer {
     align-items: flex-end;
     color: #32373c;
     display: flex;
-	font-size: 16px;
-	font-weight: 900;
+    font-size: 16px;
+    font-weight: 900;
     justify-content: flex-start;
-	line-height: 1.25;
+    line-height: 1.25;
     margin: 36px 0 0 0;
-	text-align: left;
+    text-align: left;
 }
 
-.message_fotter-icon-like {
+.message_footer-icon-like {
     height: 24px;
     margin-right: 8px;
     width: 24px;
