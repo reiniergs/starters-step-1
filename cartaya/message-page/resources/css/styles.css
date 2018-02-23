@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('./../font/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./../font/Lato-Regular.woff') format('woff'),
+         url('./../font/Lato-Regular.ttf') format('truetype'),
+         url('./../font/Lato-Regular.svg#FontName') format('svg');
+}
+
+.view-port {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.lato-font {
+    font-family: 'Camphor-Thin', 'Arial', sans-serif;
+    font-weight: 500;
+}
+
+.message {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+}
+
+.message_image {
+    background: url('./../img/graphic.svg');
+    height: 409px;
+    margin-right: 97px;
+    width: 433px;
+}
+
+.message_info-container {
+    width: 433px;
+}
+
+.message_title {
+	color: #32373c;
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 1.33;
+    margin: 0;
+    text-align: left;
+}
+
+.message_text {
+	color: #7b7b7b;
+	font-size: 16px;
+	line-height: 1.38;
+    margin: 20px 0 0 0;
+    text-align: left;
+}
+
+.message_link {
+    color: #2196f3;
+}
+
+.message_fotter {
+    align-items: flex-end;
+    color: #32373c;
+    display: flex;
+	font-size: 16px;
+	font-weight: 900;
+    justify-content: flex-start;
+	line-height: 1.25;
+    margin: 36px 0 0 0;
+	text-align: left;
+}
+
+.message_fotter-icon-like {
+    height: 24px;
+    margin-right: 8px;
+    width: 24px;
+}
