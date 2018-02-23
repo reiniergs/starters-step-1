@@ -1,6 +1,6 @@
 .ponlaya-topup-steps_view-port {
     align-items: center;
-    background-color: #fff;
+    background-color: #f3f4f6;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -14,9 +14,6 @@
 
 .ponlaya-topup-steps_container {
     align-items: center;
-    background-color: #f3f4f6;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     box-sizing: border-box; /* csslint allow: box-sizing */
     display: flex;
     flex-direction: column;
