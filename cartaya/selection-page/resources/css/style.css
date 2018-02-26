@@ -6,12 +6,13 @@
          url('./../font/Lato-Regular.svg#FontName') format('svg');
 }
 
+
 .view-port {
     align-items: center;
+    background-color: rgb(1, 173, 255);
     display: flex;
     height: 100vh;
     justify-content: center;
-    background-color: rgb(1, 173, 255);
     margin: 0;
 }
 
@@ -19,46 +20,90 @@
     font-family: 'Lato-Regular', 'Arial', sans-serif;
 }
 
-.selection-page_container {
-    background: url('./../img/2060.svg');
-    width: 1286px;
-    height: 853px;
-    display: flex;
-    justify-content: center;
+.background {
     align-items: center;
+    background: url('./../img/2060.svg') center center;
+    background-size: cover;
+    display: flex;
+    height: 853px;
+    justify-content: center;
+    width: 1286px;
+}
+
+.selection-page_form-container {
+    align-items: center;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 320px;
 }
 
 .selection-page_title {
+    color: #fff;
+    font-size: 36px;
     margin: 0 0 48px 0;
-	font-size: 36px;
-	color: #ffffff;
 }
 
-.selection-page_form {
-    display: flex;
-    justify-content: center;
+.selection-page_select-container {
     align-items: center;
-    flex-direction: column;
-}
-
-.selection-page_input-container {
-	width: 288px;
-	height: 40px;
-	border-radius: 20px;
-    border: solid 1px #ffffff;
+    border: solid 1px #fff;
+    border-radius: 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 16px 0 16px;
-	font-size: 16px;
-	color: #ffffff;
+    min-height: 40px;
+    min-width: 100%;
+    position: relative;
 }
 
-.selection-page_input-container:not(:last-child) {
+.selection-page_select-container:not(:last-child) {
     margin-bottom: 24px;
 }
 
+.selection-page_select-container:hover {
+    background-color: #ffffff4f;
+    background-color: rgba(255, 255, 255, 0.31);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
 .selection-page_input {
-    margin-right: 16px;
+    margin: 0 16px 0 16px;
+}
+
+.selection-page_category-text {
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    right: 16px;
+}
+
+.selection-page_select-order-text {
+    color: #fff;
+    font-size: 16px;
+}
+
+.selection-page_button {
+    background-color: #fff;
+    border: solid 1px #fff;
+    border-radius: 20px;
+    color: #01adff;
+    font-size: 16px;
+    font-weight: 900;
+    margin: 24px 0 0 0;
+    min-height: 40px;
+    min-width: 100%;
+    text-transform: uppercase;
+}
+
+.selection-page_button:hover {
+    background-color: #ffffff4f;
+    background-color: rgba(255, 255, 255, 0.31);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.selection-page_button:focus {
+    background-color: #ffffff4f;
+    background-color: rgba(255, 255, 255, 0.31);
+    outline: none;
 }
