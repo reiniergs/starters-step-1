@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css"/>
+    <title>Title</title>
+</head>
+<body class="view-port">
+    <div class="container">
+        <div class="card">
+            <h4 class="title">
+                Only three steps to get your gift...
+            </h4>
+            <div class="gift-flow">
+                <div class="flow-description">
+                    <img class="img-flow" src="images/paper-plane.svg">
+                    <p class="description">
+                        Send Invite to friend
+                    </p>
+                </div>
+                <hr class="line">
+                <div class="flow-description">
+                    <img class="img-flow" src="images/group.svg">
+                    <p class="description">
+                        Your friend receives invite
+                    </p>
+                </div>
+                <hr class="line">
+                <div class="flow-description">
+                <img class="img-flow" src="images/get-gift.svg">
+                    <p class="description">
+                        You receive a gift
+                    </p>
+                </div>
+            </div>
+            <form>
+                <div>
+                    <label class="input-label" for="email">
+                        via email
+                    </label>
+                    <div class="input-fill">
+                        <input type="email" id="email" class="input" placeholder="Send email invitation"/>
+                        <div class="input-left-box">
+                            <img class="icon-left" src="images/email.svg" alt="Email icon">
+                        </div>
+                        <button class="send-button" type="submit">
+                            send invite
+                        </button>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="input-label" for="number">
+                        via sms
+                    </label>
+                    <div class="input-fill">
+                        <input type="number" id="number" class="input" placeholder="Send SMS invitation"/>
+                        <div class="input-left-box">
+                            <img class="icon-left" src="images/cu-flag.svg" alt="SMS icon">
+                        </div>
+                        <button class="send-button" type="submit">
+                            send invite
+                        </button>
+                    </div>
+                </div>
+            </form>
+            <div class="url-input-container">
+                <label class="input-label" for="url">
+                    copy link
+                </label>
+                <div class="url-input-icon">
+                    <input class="url-input" type="url" id="url" value="https://ponlaya.com" disabled="true">
+                    <img src="images/1.svg" class="right-icon" alt="Copy icon">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
