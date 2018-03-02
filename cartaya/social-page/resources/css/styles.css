@@ -159,6 +159,7 @@
 .socialpg_input-mail-img {
     height: 20px;
     left: 24px;
+    pointer-events: none;
     position: absolute;
     width: 20px;
 }
