@@ -112,19 +112,18 @@
 
 .socialpg_text-befor-mail {
     font-size: 14px;
+    margin: 0 0 8px 0;
     text-align: center;
+}
+
+.socialpg_text-befor-mail:hover {
+    cursor: pointer;
 }
 
 .socialpg_input-mail-container {
     align-items: center;
-    background-color: #ffffff4d;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 20px;
     display: flex;
-    margin: 8px 0 20px 0;
-    max-width: 426px;
-    min-height: 40px;
-    padding: 0 0 0 24px;
+    position: relative;
 }
 
 .socialpg_input-mail-container:hover {
@@ -132,16 +131,17 @@
 }
 
 .socialpg_input-mail {
-    background-color: transparent;
-    border: none;
-    border-radius: 0 20px 20px 0;
+    background-color: #ffffff4d;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid transparent;
+    border-radius: 20px;
     color: #fff;
     font-size: 16px;
     font-weight: 900;
-    height: 38px;
     line-height: 1.25;
-    margin: 0 0 0 16px;
-    width: 100%;
+    min-height: 40px;
+    min-width: 366px;
+    padding: 0 24px 0 60px;
 }
 
 .socialpg_input-mail::placeholder {
@@ -152,9 +152,15 @@
 }
 
 .socialpg_input-mail:focus {
-    background-color: rgb(49, 57, 55);
-    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid #84ba3f;
     outline: none;
+}
+
+.socialpg_input-mail-img {
+    height: 20px;
+    left: 24px;
+    position: absolute;
+    width: 20px;
 }
 
 .socialpg_button {
@@ -167,6 +173,7 @@
     height: 40px;
     letter-spacing: 0.5px;
     line-height: normal;
+    margin: 20px 0 0 0;
     text-transform: uppercase;
     width: 114px;
 }
