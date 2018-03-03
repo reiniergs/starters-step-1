@@ -84,6 +84,13 @@
     text-transform: uppercase;
 }
 
+.step-gift_form {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0 20px 0;
+}
+
 .step-gift_input-container {
     align-items: center;
     display: flex;
@@ -103,15 +110,15 @@
     font-size: 16px;
     line-height: 1.25;
     min-height: 38px;
-    width: 100%;
     padding: 0 0 0 50px;
+    width: 100%;
+}
+
+.step-gift_input:not(:last-child) {
+    margin-right: 30px;
 }
 
 /* csslint ignore:end */
-
-.step-gift_input:not(:last-child) {
-    margin-right: 16px;
-}
 
 .step-gift_input:focus {
     border: solid 1px #2196f3;
@@ -135,27 +142,16 @@
     width: 1px;
 }
 
-.step-gift_form {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin: 8px 0 20px 0;
-}
-
 .step-gift_button {
     background-color: #2196f3;
     border: none;
     border-radius: 3px;
     color: #fff;
+    flex-shrink: 0;
+    font-family: 'Camphor-Thin', 'Arial', sans-serif;
     font-size: 14px;
-    height: 40px;
-    width: 116px;
-}
-
-.step-gift_button ::after {
-    content: 'casa';
-    height: 10px;
-    width: 10px;
+    line-height: 40px;
+    padding: 0 16px;
 }
 
 .step-gift_button:hover {
