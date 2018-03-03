@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('./../font/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./../font/Lato-Regular.woff') format('woff'),
+         url('./../font/Lato-Regular.ttf') format('truetype'),
+         url('./../font/Lato-Regular.svg#FontName') format('svg');
+}
+
+.view-port {
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('./../img/graphic.svg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+}
+
+.lato-font {
+    font-family: 'Lato-Regular', 'Arial', sans-serif;
+    font-weight: 500;
+}
+
+.socialpg_header {
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 2px 8px 0 rgb(0, 0, 0);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.66);
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.socialpg_container {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    width: 600px;
+}
+
+.socialpg_text-top {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+}
+
+.socialpg_title {
+    color: #84ba3f;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 4px 0 16px 0;
+}
+
+.socialpg_text-about-us {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.socialpg_circle-container {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0 48px 0;
+    width: 100%;
+}
+
+.socialpg_circle {
+    align-items: center;
+    border: solid 5px #ffffff80;
+    border: solid 5px rgba(255, 255, 255, 0.5);
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100px;
+    min-width: 100px;
+}
+
+.socialpg_circle:not(:last-child) {
+    margin-right: 68px;
+}
+
+.socialpg_circle-numbers {
+    color: #84ba3f;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1.13;
+    margin: 0;
+}
+
+.socialpg_circle-time {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.socialpg_form {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.socialpg_text-befor-mail {
+    font-size: 14px;
+    margin: 0 0 8px 0;
+    text-align: center;
+}
+
+.socialpg_text-befor-mail:hover {
+    cursor: pointer;
+}
+
+.socialpg_input-mail-container {
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.socialpg_input-mail-container:hover {
+    cursor: pointer;
+}
+
+.socialpg_input-mail {
+    background-color: #ffffff4d;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1.25;
+    min-height: 40px;
+    min-width: 366px;
+    padding: 0 24px 0 60px;
+}
+
+.socialpg_input-mail::placeholder {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1.25;
+}
+
+.socialpg_input-mail:focus {
+    border: 1px solid #84ba3f;
+    outline: none;
+}
+
+.socialpg_input-mail-img {
+    height: 20px;
+    left: 24px;
+    pointer-events: none;
+    position: absolute;
+    width: 20px;
+}
+
+.socialpg_button {
+    align-self: center;
+    background-color: #84ba3f;
+    border: none;
+    border-radius: 18px;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    letter-spacing: 0.5px;
+    line-height: normal;
+    margin: 20px 0 0 0;
+    text-transform: uppercase;
+    width: 114px;
+}
+
+.socialpg_button:hover {
+    background-color: #fff;
+    color: #84ba3f;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.socialpg_button:focus {
+    opacity: 0.8;
+    outline: none;
+}
