@@ -106,7 +106,6 @@
     border-radius: 4px;
     color: rgb(120, 120, 120);
     color: rgba(0, 0, 0, 0.54);
-    font-family: 'Camphor-Thin', 'Arial', sans-serif;
     font-size: 16px;
     line-height: 1.25;
     min-height: 38px;
@@ -148,7 +147,6 @@
     border-radius: 3px;
     color: #fff;
     flex-shrink: 0;
-    font-family: 'Camphor-Thin', 'Arial', sans-serif;
     font-size: 14px;
     line-height: 40px;
     padding: 0 16px;
@@ -165,7 +163,6 @@
     background-color: rgba(33, 149, 243, 0.822);
     outline: none;
 }
-
 
 .step-gift_copy-link-text {
     color: #2196f3;
@@ -227,57 +224,45 @@
     padding: 0 0 0 5px;
 }
 
+/* tooltip from here */
+
 .step-gift_copy-link-button:before, .step-gift_copy-link-button:after {
-    opacity: 0;
-    pointer-events: none;
     position: absolute;
     transition: all 0.15s cubic-bezier(0.5, 1, 0.25, 1);
     visibility: hidden;
-    z-index: 1;
 }
 
 .step-gift_copy-link-button:before {
-    background: #000;
+    background: rgb(8, 8, 8);
     border-radius: 3px;
+    bottom: 140%;
     color: #fff;
     content: attr(data-tooltip);
-    font-family: 'Camphor-Thin', 'Arial', sans-serif;
     font-size: 14px;
     font-weight: normal;
+    left: 100%;
     line-height: 1.2;
+    margin-bottom: 5px;
     padding: 5px;
     text-align: left;
+    transform: translateX(-90%);
     width: max-content;
 }
 
 .step-gift_copy-link-button:after {
     border: 8px solid transparent;
+    border-bottom: none;
+    border-top: 8px solid rgb(8, 8, 8);
+    bottom: 140%;
     content: "";
     font-size: 0;
+    left: 100%;
     line-height: 0;
+    transform: translateX(-90%);
     width: 0;
 }
 
 .step-gift_copy-link-button:hover:before, .step-gift_copy-link-button:hover:after {
     opacity: 1;
     visibility: visible;
-}
-
-.t-top:before {
-    bottom: 100%;
-    left: 70%;
-    margin-bottom: 5px;
-    transform: translateX(-90%);
-}
-
-.t-top:after {
-    border-bottom: none;
-    border-top: 8px solid #000;
-    bottom: 100%;
-    left: 70%;
-    transform: translateX(-90%);
-}
-
-.t-top:hover:before, .t-top:hover:after {
-    transform: translateX(-90%) translateY(-5px);
 }
