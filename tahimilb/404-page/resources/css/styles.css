@@ -14,8 +14,7 @@ body {
     flex-wrap: wrap;
     height: 100vh;
     justify-content: center;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding: 0 15%;
 }
 
 .starters-step-1-not-found-header {
@@ -45,8 +44,8 @@ body {
 
 .starters-step-1-not-found-secondary-text {
     color: #f7f7f7;
-    font-weight: 100;
     font-size: 16px;
+    font-weight: 100;
     line-height: 1.5;
     margin: 0;
     margin-bottom: 4px;
