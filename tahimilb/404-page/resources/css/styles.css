@@ -1,0 +1,60 @@
+/* ----- GENERAL ----- */
+
+body {
+    font-family: 'Camphor', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+}
+
+.starters-step-1-not-found-background-image {
+    background-image: url(img/not-found.svg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.starters-step-1-not-found-header {
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.starters-step-1-not-found-footer-container {
+    align-self: flex-end;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.starters-step-1-not-found-primary-text {
+    margin: 0;
+    font-size: 24px;
+    font-weight: lighter;
+    color: #2196f3;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.starters-step-1-not-found-secondary-text {
+    margin: 0;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.38);
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.starters-step-1-not-found-link-home {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #ffffff;
+}
