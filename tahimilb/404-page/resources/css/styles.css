@@ -35,17 +35,16 @@ body {
 }
 
 .starters-step-1-not-found-primary-text {
-    color: rgba(255, 255, 255, 0.7);
+    color: #fbfbfb;
     font-size: 20px;
     font-weight: 100;
     line-height: 1.5;
-    margin: 0;
-    margin-bottom: 8px;
+    margin: 0 0 8px 0;
     text-align: center;
 }
 
 .starters-step-1-not-found-secondary-text {
-    color: rgba(255, 255, 255, 0.4);
+    color: #f7f7f7;
     font-weight: 100;
     font-size: 16px;
     line-height: 1.5;
